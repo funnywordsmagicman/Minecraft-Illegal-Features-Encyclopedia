@@ -29,15 +29,17 @@
 
 ![Static Badge](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
-  ![Static Badge](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
+&nbsp; ![Static Badge](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
 
 ![Static Badge](https://img.shields.io/badge/-Block-134386) - This refers to illegal block placements.
 
 ![Static Badge](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
-  ![Static Badge](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
+&nbsp; ![Static Badge](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
 
 ![Static Badge](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
+
+&nbps; ![Static Badge](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
 
 ![Static Badge](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
 
