@@ -53,9 +53,11 @@
 
 ![Terrain](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
+&nbsp; ![Chunk Loading](https://img.shields.io/badge/Chunk%20Loading-d4a6f5) - This refers to chunk loading errors or anomalies.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Structure-CCA12F) - This refers to illegal structure generation.
+&nbsp; ![Biome](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
+
+&nbsp; ![Structure](https://img.shields.io/badge/Structure-CCA12F) - This refers to illegal structure generation.
 
 ![Static Badge](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
 
