@@ -452,7 +452,7 @@
 </details>
 
 <details>
-  <summary> <strong>Liquid Transmutation Block List</strong> (Click to expand) </summary>
+  <summary> <strong>Liquid Transmutation Block List</strong></summary>
   
 | Numeric ID | Block ID | Does it work? |
 |---|---|---|
@@ -593,7 +593,7 @@
 - Worlds from 1.7_01 that will previously hardlocked will now open, and a moving piston block (Block 36) will appear above bugged pistons.
 
 <details>
-  <summary> <strong>Moving Piston Merge Transmutation Block list</strong> (Click to expand) </summary>
+  <summary> <strong>Moving Piston Merge Transmutation Block list</strong></summary>
   
 | Numeric ID | Block ID | Does it Work? | Special Design Needed? |
 |---|---|---|---|
