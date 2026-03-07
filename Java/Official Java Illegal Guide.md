@@ -23,7 +23,7 @@
 
 ## Badges
 
-![Item](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.  <details>  <summary> </summary>
+![Item](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.
 
   &nbsp; ![Item NBT](https://img.shields.io/badge/Item%20NBT-2FCC66) - This refers to illegal item NBT data.
 
@@ -39,7 +39,7 @@
 
   &nbsp; &nbsp; ![Durability](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
 
-</details>
+
 
 ![Entity](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
@@ -49,11 +49,15 @@
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Entity%20Data-a8838c) - This refers to illegal or bugged entity NBT data or attributes.
 
+
+
 ![Block](https://img.shields.io/badge/-Block-134386) - This refers to illegal blocks.
 
 &nbsp; ![Block Configuration](https://img.shields.io/badge/Block%20Configuration-584bea) - This refers to illegal block configurations.
 
 &nbsp; ![Block NBT](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
+
+
 
 ![Terrain](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
@@ -63,17 +67,23 @@
 
 &nbsp; ![Structure](https://img.shields.io/badge/Structure-CCA12F) - This refers to illegal structure generation.
 
-![Static Badge](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
+
+
+![Player Data](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
 
 &nbsp; ![Gamemode](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
 
 &nbsp; ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
+
+
 
 ![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
 
 &nbsp; ![World State](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
 
 &nbsp; &nbsp; ![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
+
+
 
 ![Duplication](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
 
@@ -83,7 +93,11 @@
 
 &nbsp; ![Entity Dupe](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
 
+
+
 ![Fast Travel](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
+
+
 
 ![Technical](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical behavior or manipulation methods.
 
@@ -110,6 +124,8 @@
 &nbsp; ![Networking](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
 
 &nbsp; ![UI](https://img.shields.io/badge/UI-505d75) - This refers to bugs related to container and inventory UI.
+
+
 
 ![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
 
