@@ -193,10 +193,10 @@
 > In order to access this version, the world save folder will have to be named as World[1-5]. During this downgrade, the level.dat and level.dat_old should be removed temporarily. A world without a level.dat can be accessed by selecting the respective slot when going to the singleplayer screen. The level.dat and level.dat_old will have to be restored when updating back to b1.3-2 in order to preserve the Alpha File Format folders of the next version. No chunks, entities, or placed blocks will be affected during this downgrade.	
 - This version has a file format that is not used in any other version. A folder named "data" is used, and contains "entities.dat" and "zones.dat" This folder will become completely unused upon updating out of this version and nothing will be converted to a different file format. This creates several file discontinued features. 
 
-**Beta 1.2_02-launcher**
+### Beta 1.2_02-launcher
 - This is the last version that uses the Alpha file format. Since the Alpha File Format from the original world has already been converted, updating to this version will regenerate an entirely new world with the Alpha File Format. This allows for numerous folders in both the world save folder and the DIM-1 folder, that are titled with numbers and letters, which contain subfolders titled with numbers and letters, that contain .dat files, since this is how the Alpha File Format worked. There are hundreds of discontinued folders possible. 	
 
-**Beta 1.3-2**
+### Beta 1.3-2
 - Petrified Oak Slabs were added in this version, they can be simply crafted using the normal oak slab recipe and later they will become Petrified Oak Slabs
 - World names can contain the section symbol § and will format the name which will become unobtainable in later versions.
 - After respawning or initial spawning into a world you will be given a stack of torches, a pickaxe, an axe, a shovel, 1 bed, and then a stack of 63 beds, this will create unobtainable overstacked beds which will be unobtainble in later versions.
@@ -206,10 +206,10 @@
 - Placing a bed next to a cactus would result in the lower half adjacent to cactus breaking from Beta 1.3 to Beta 1.9 Prerelease 5.
 - You can paste ASCII Control Codes and the DEL Character into the world name. Beware that with some control characters, backspacing too many times after pasting them can cause a game crash in some versions. 
 
-**Beta 1.4-1** 
+### Beta 1.4-1
 - Locked Chests can generate throughout the world if your computer time is set to April 1st, 2011. You can obtain them from explosions, they will convert to stained glass in the future allowing for several illegal block formations
 
-**Beta 1.6-tb3**
+### Beta 1.6-tb3
 > [!Note]
 > The level.dat and level.dat_old will need to be removed, either temporarily or permanetly in order to allow for the test build chests to generate in this version. In order to access the world after removing level.dat, you can go to create world and create a world with the same name as the world save. It is also recommended to use the same seed to prevent chunk borders. It is recommended to replace the original level.dat after entering this version in order to preserve the discontinued world name from the previous versions.
 - Upon level.dat creation, debug chests would generate at the world spawn and contain every item in the game at the time including illegal items. These items include Half Bed, Flowing Water, Water, Flowing Lava, Lava, Double Stone Slab, Fire, Redstone Wire, Crops, Farmland, Lit Furnace, Standing Sign, Wall Sign, Half Wooden Door, Half Iron Door, Lit Redstone Ore, Unlit Redstone Torch, Reeds, Portal, Cake Block, Unpowered Redstone Repeater, Powered Redstone Repeater, Locked Chest, Shrub, and Bedrock
@@ -218,60 +218,62 @@
 - Update Suppresion now works by using budding redstone updates, you can find the world download in the "Mods & Extra Files" Folder for the Update Suppresor Model for this version
 - Maps would not snap to a grid, meaning unobtainable map variants can be obtained
 
-**Beta 1.6.0**
+### Beta 1.6.0
 - Dropping any equipment that was damaged creates a zero stack. This item can picked up any number of times and fills up the player's inventory quickly. This method only works on tools, armor, and weapons that have durability.
 
-**Beta 1.7**
+### Beta 1.7
 - Block Transmutation can work by building a piston and water based contraption
 - Block Transmutation can also work with an arrow and piston contraption
 - Pulling a detector rail with a minecart on it will leave it powered, though will only temporarily as it will be reverted once ticked
 - Pushing with a 0/1-tick pulse or by simply pulling a rail or activator rail off a block it would leave it floating in mid air.
 
-**1.7_01**
+### 1.7_01
 - Placing an upwards facing piston of any type, and building a two block high pillar of solid blocks right besides the piston, and place a lever on the top block, in such a way that the lever is right above the piston. Activating this lever will crash the game, and you world will not be able to be opened again in b1.7_01. Update to b1.7.2, and load the world. There will now be a block-entity less moving piston block (Block 36) above the piston.
 
-**Beta 1.7.2**
+### Beta 1.7.2
 - Block Transmutation can work by updating a budded piston at the same time another piston pushes a block merging the blocks
 
-**Beta 1.8 Prerelease 1-1**
+### Beta 1.8 Prerelease 1-1
 - Endermen can pick up any block in the game allowing for discontinued endermen variants
 - Enderpearls can stack up to 64 in this version allowing for overstacked enderpearls
 - Updating a furnace into a lit furnace which will update a piston and then pushing the furnace will displace it's block entity. This allows for furnace block entity in any block in the game that normally has a block entity
 - Placing a mushroom on any block and then bonemealing them would grow a big mushroom and replace the block underneath it with dirt making it possible for unbreakable bock removal
 - Updating a Chest from Beta 1.7.3 will cause it to be a darkness block inside the chest because previously chests were opaque and a full block. Any block changes around the chest will break it.
 
-**Beta 1.9 Prerelease 1**
+### Beta 1.9 Prerelease 1
 - Jumping will give you XP, this is not an unobtainable but it is a debug feature that can be used to get insane amount of Xp levels really quickly
 
-**Beta 1.9 Prerelease 2 (MOD)**
+### Beta 1.9 Prerelease 2 (MOD)
 > [!Note]
 > This version uses a mod to assign a block id to a cauldron in order to access the original brewing system. The beta 1.9 pre2 cauldron mod can be downloaded from resources. The zip file can then be extracted, and the folder titled "enable" can be zipped. This enabled zip can then be added to a b1.9-pre2 instance in multimc by going to edit instance and add to minecraft.jar. You can find this mod in the "Mods & Extra Files" folder
 - The cauldron currently uses the id of an enchantment table and the block data of a brewing stand. This means that updating out of this version will convert the cauldron to an enchantment table with the block data of a brewing stand
 - Potions can be brewed by adding an assortment of ingredients to a cauldron. A total of 5,339 potion variations are possible using this method, most of which provide discontinued status effects and create invalid data value potions. A potion calculator is included on the resource sheet to explain the brewing process in more detail. 
 - Feeding animals would cause the wheat to decrement past 0 if it was the last item in the stack
 
-**Beta 1.9 Prerelease 3 - Beta 1.9 Prerelease 2**
+### Beta 1.9 Prerelease 3 - Beta 1.9 Prerelease 2
 - Downgrading potions from Beta 1.9 Prerelease 3 to Beta 1.9 Prerelease 2 will make it possible to overstack the potions allowing for overstacked potions
 
-**Beta 1.9 Prerelease 3-1**
+### Beta 1.9 Prerelease 3-1
 > [!Note]
-> Certain multiplayer exclusive chunks can be obtained, however it requires file manipulation. Regions from a newly generated multiplayer world can be copied into the pre-existing world. This would work by taking a region file, changing the numbers to not conflict with previously existing region files, and adding them to the preexisting world.
+> Certain multiplayer exclusive chunks can be generated, but require file manipulation. Regions from a newly generated multiplayer world can be copied into pre-existing worlds. This works by taking a region file, changing the name to not conflict with previously existing region files, and adding it into a pre-existing world.
 - The player would spawn with debug items including a stack of bookshelves, enchanting tables, end portals, and end portal frames. Hovering your cursor over the end portals will crash your game due to a missing tooltip
 - Blowing up end portal frames that generate in the stronghold have a 30% chance of dropping themselves
 - Enchanting Items in this version will give it the Enchantment "ENCHANTED!", updating these items to newer versions would cause the enchants on the gear to be converted to Feather Falling I allowing for Feather Falling I on all tools and gear.
 - Currently "Sky Dimension" chunks generate in a new multiplayer world. These are large floating islands that generate in the overworld, with large sections of void and no bedrock. There is no way to obtain these chunks in a pre-existing world, however the region files can be moved from a newly generated multiplayer world to the preexisting world by renumbering the newly generated region files
 
-**Beta 1.9 Prerelease 4-1**
+### Beta 1.9 Prerelease 4-1
 - Enchanting in this version works normally and all previous enchants would convert to Feather Falling I, however Silk Touch and Fortune are not mutually exclusive allowing for Silk Touch and Fortune on the same tool
 - Silk Touch works on Spawners, Infested Stone, Lit Furnaces, Double Slabs, Lit Redstone Ore, and Ice which all become unobtainable in newer versions
 - Placing a support block on a glass block will misplace the support block somewhere where it can be placed, using this method you can place support blocks on chests which can give you unobtainable block formations
 
-**Beta 1.9 Prerelease 6**
+### Beta 1.9 Prerelease 6
 - The exit portal would generate when the ender dragon is killed but the exit portal would generate where the dragon died and not at 0,0 allowing for the exit end portal in discontinued locations
 - Nether Portal can be placed in the end, allowing for nether portals in the end
 - The player can try to place a torch or redstone torch on a block that is situated next to the world border (where you are not supposed to place a torch). This will result in the torch going onto the world border.
 
-**1.0.0 Release Candidate 1**
+## Java 1.0
+
+### 1.0.0 Release Candidate 1
 - In this version, all swords have 5 durability points. Updating any swords with 1 durability point remaining, and combining them in this version causes these swords to gain negative durability once updated. This allows for negative durability wooden, stone, iron, gold, diamond, and eventually netherite swords
 - Shooting from a bow that has 0 durability can cause the bow to become a zero stack.
 
