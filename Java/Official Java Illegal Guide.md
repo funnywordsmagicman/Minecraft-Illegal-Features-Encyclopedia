@@ -1,6 +1,6 @@
 _____________________________________________________________________________________________________________________________________
 
-##KEY WORDS##
+## KEY WORDS
 
 **Upgrading:** Upgrading from X.XX.XX to Y.YY.YY to obtain a certain illegal occurence
 <br>
@@ -20,7 +20,7 @@ ________________________________________________________________________________
 
 [**level.dat Regeneration:**](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented) level.dat Regeneration refers to the deletion or relocation and then forced recreation of the original level.dat file of a Minecraft world in order to regenerate debug chests or other structures that only generate on the creation of a level.dat file.
 _____________________________________________________________________________________________________________________________________
-##Classic##
+## Classic
 
 **Classic 0.0.14a_08**
 - Sand and Gravel do not fall into liquids.
@@ -33,7 +33,7 @@ ________________________________________________________________________________
 - By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places.
 
 _____________________________________________________________________________________________________________________________________
-##Indev##
+## Indev
   
 **Indev 20100124-3**
 - [The Indev House](https://minecraft.wiki/w/Starting_House) will spawn upon loading the world.
@@ -65,7 +65,7 @@ ________________________________________________________________________________
 -  Any item can be placed in the furnace fuel and output slot. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition)</sup>
 
 _____________________________________________________________________________________________________________________________________
-##Infdev##
+## Infdev
 
 **Infdev 20100227-1** 
 - [Brick Pyramids](https://minecraft.fandom.com/wiki/Brick_pyramid) generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
