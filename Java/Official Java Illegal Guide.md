@@ -27,7 +27,7 @@
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Item%20NBT-2FCC66) - This refers to illegal item NBT data.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item counts.
+&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item counts.
 
 ![Static Badge](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
@@ -56,6 +56,8 @@
 &nbsp; ![Static Badge](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
+
+&nbsp; ![Static Badge](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
 
 ![Static Badge](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
 
