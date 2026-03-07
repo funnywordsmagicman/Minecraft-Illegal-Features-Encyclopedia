@@ -63,13 +63,13 @@
 
 &nbsp; ![Gamemode](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
 
-&nbsp; ![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
-
 &nbsp; ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
 
 ![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
 
 &nbsp; ![World State](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
+
+&nbsp; &nbsp; ![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
 
 ![Duplication](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
 
