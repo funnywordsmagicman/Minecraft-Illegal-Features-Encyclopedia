@@ -25,7 +25,7 @@
 
 ## Classic
 
-### **Classic 0.0.14a_08**
+### Classic 0.0.14a_08
 - Sand and Gravel do not fall into liquids.
 - Dandelions and Poppys block liquids.
 
