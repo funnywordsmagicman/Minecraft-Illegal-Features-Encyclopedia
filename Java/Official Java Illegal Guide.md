@@ -222,12 +222,37 @@
 - You can paste ASCII Control Codes and the DEL Character into the world name.
 
 ### Beta 1.4-1
-- Locked Chests can generate throughout the world if your computer time is set to April 1st, 2011. You can obtain them from explosions, they will convert to stained glass in the future allowing for several illegal block formations
+- Locked Chests can generate throughout the world if your computer time is set to April 1st, 2011. They drop when exploded.
 
-### Beta 1.6-tb3
+### Beta 1.6 Test Build 3
 > [!Note]
-> The level.dat and level.dat_old will need to be removed, either temporarily or permanetly in order to allow for the test build chests to generate in this version. In order to access the world after removing level.dat, you can go to create world and create a world with the same name as the world save. It is also recommended to use the same seed to prevent chunk borders. It is recommended to replace the original level.dat after entering this version in order to preserve the discontinued world name from the previous versions.
-- Upon level.dat creation, debug chests would generate at the world spawn and contain every item in the game at the time including illegal items. These items include Half Bed, Flowing Water, Water, Flowing Lava, Lava, Double Stone Slab, Fire, Redstone Wire, Crops, Farmland, Lit Furnace, Standing Sign, Wall Sign, Half Wooden Door, Half Iron Door, Lit Redstone Ore, Unlit Redstone Torch, Reeds, Portal, Cake Block, Unpowered Redstone Repeater, Powered Redstone Repeater, Locked Chest, Shrub, and Bedrock
+> Level.dat regeneration is required in order to access debug chests in existing worlds.
+- Upon level.dat creation, [debug chests](https://mcdf.wiki.gg/wiki/Java_Edition:Beta_1.6_Test_Build_3_Debug_Chests) would generate at the world spawn.
+- Some notable items in these chests are:
+  - [Half Bed](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Bed_(Block))
+  - [Flowing Water](https://mcdf.wiki.gg/wiki/Java_Edition:Flowing_Water_(Item))
+  - [Water](https://mcdf.wiki.gg/wiki/Java_Edition:Water_(Item))
+  - [Flowing Lava](https://mcdf.wiki.gg/wiki/Java_Edition:Flowing_Lava_(Item))
+  - [Lava](https://mcdf.wiki.gg/wiki/Java_Edition:Lava_(Item))
+  - [Double Stone Slab](https://mcdf.wiki.gg/wiki/Java_Edition:Double_Stone_Slab_(Item))
+  - [Fire](https://mcdf.wiki.gg/wiki/Java_Edition:Fire_(Item))
+  - [Redstone Wire](https://mcdf.wiki.gg/wiki/Java_Edition:Redstone_Wire_(Item))
+  - [Crops](https://mcdf.wiki.gg/wiki/Java_Edition:Crops_(Item))
+  - [Farmland](https://mcdf.wiki.gg/wiki/Java_Edition:Farmland_(Item))
+  - [Lit Furnace](https://mcdf.wiki.gg/wiki/Java_Edition:Lit_Furnace_(Item))
+  - Standing Sign
+  - Wall Sign
+  - Half Wooden Door
+  - Half Iron Door
+  - Lit Redstone Ore
+  - Unlit Redstone Torch
+  - Reeds, Portal
+  - Cake Block
+  - Unpowered Redstone Repeater
+  - Powered Redstone Repeater
+  - Locked Chest
+  - Shrub
+  - Bedrock
 - Melting Ice in the nether won't dissolve the water making it possible to have water in the nether
 - Entering a Nether Portal while in the crafting grid will cause all items in the crafting grid to get thrown out and become 0 stacked items, 0 stack items can be subtracted to become negative stack items by Q-ing them and can be overflowed to become overstacked items
 - Update Suppresion now works by using budding redstone updates, you can find the world download in the "Mods & Extra Files" Folder for the Update Suppresor Model for this version
