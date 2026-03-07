@@ -93,7 +93,7 @@
 
 &nbsp; ![Corruption](https://img.shields.io/badge/Corruption-feaa37) - This refers to world or item corruption.
 
-&nbsp; &nbsp; ![Coordinate](https://img.shields.io/badge/Coordinate-755250) - This refers to coordinate or floating point errors that result in odd terrain.
+&nbsp; &nbsp; ![Coordinate](https://img.shields.io/badge/Coordinate-755250) - This refers to coordinate or floating point errors that result in glitched placement, terrain, hitboxes, etc.
 
 &nbsp; ![Networking](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
 
