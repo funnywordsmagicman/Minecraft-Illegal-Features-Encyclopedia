@@ -33,7 +33,7 @@
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
 
-![Static Badge](https://img.shields.io/badge/-Block-134386) - This refers to illegal block placements.
+![Static Badge](https://img.shields.io/badge/-Block-134386) - This refers to illegal block configuration.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
 
