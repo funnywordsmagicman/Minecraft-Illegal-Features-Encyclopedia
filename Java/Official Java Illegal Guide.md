@@ -75,7 +75,6 @@
 - Brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
   
   <img src="https://github.com/user-attachments/assets/02c35344-7daa-43eb-8a51-3ce6e836ac8a" alt="Brick Square Frustum" width="50%" height="50%"> 
-  </em>A brick pyramid with a large, flat layer - "Brick square frustum"</em>
 
 ### Infdev 20100227-2
 - Brick pyramids now generate at a height low enough to not prevent their full generation.
@@ -1434,3 +1433,8 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 
 **25w36a**
 - In snapshot 25w36a/b, by placing an unwaxed copper rod of any oxidation level but the default one next to blocks that are able to interact with redstone and having it get struck by lightning will cause the blocks to power forever (as long as no block updates are caused). Exceptions include: repeaters, comparators, pistons and sticky pistons.
+
+# Footnotes
+| ![snapshots](1280px-List_of_Java_Edition_snapshots" src="https://github.com/user-attachments/assets/c2cdfdc0-93df-438d-a5e1-7ee531f758ea)
+| :--:|
+| *A timeline of snapshots from 2011-2026.*
