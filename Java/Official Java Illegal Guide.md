@@ -91,7 +91,7 @@ ________________________________________________________________________________
 - Placing a Door one block below the height limit will result in the Bottom Half Door <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)#:~:text=Obtaining-,Placement%20at%20Build%20Limit,-From%20Infdev%2020100607)</sup>
 - If a sign is destroyed from neighbor updates produced from its placement, it will crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Sign_Placement_Crash:~:text=Specific%20Item%20Methods-,Sign%20Placement%20Crash,-Warning%3A%20Game%20Crash)</sup>
 - Placing ladders off of the side of non-opaque blocks with a supporting block next to it can cause the ladder to be rendered invisible. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Ladder_Placement)</sup> 
-- By using 15 very long symbols in the same line before the new sign limit system, you can get a sign that would be impossible with the normal character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign)</sup> 
+- By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Long_Sign)</sup> 
 
 **Infdev 20100611**
 - Monoliths would generate in flat terrain without bedrock underneath. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Monolith)</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
