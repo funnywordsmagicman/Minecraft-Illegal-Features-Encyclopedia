@@ -21,7 +21,7 @@
 
 [**level.dat Regeneration:**](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented) level.dat Regeneration refers to the deletion or relocation and then forced recreation of the original level.dat file of a Minecraft world in order to regenerate debug chests or other structures that only generate on the creation of a level.dat file.
 
-##Badges
+## Badges
 
 ![Static Badge](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.
 
