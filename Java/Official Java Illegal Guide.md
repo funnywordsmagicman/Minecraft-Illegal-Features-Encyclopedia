@@ -279,7 +279,7 @@
   
 | Numeric ID | Block ID | Does it Work? | Special Design Needed? |
 |---|---|---|---|
-| 0 | stone | ![Yes](https://img.shields.io/badge/status-working-brightgreen) |  |
+| 0 | stone | ![Yes](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
 | 1 | grass | Yes |  |
 | 2 | dirt | Yes |  |
 | 3 | cobblestone | Yes |  |
