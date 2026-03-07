@@ -19,7 +19,7 @@ ________________________________________________________________________________
 [**Overstacked Item:**](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items) Overstacked items refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> greater than their usual stack size. In the event that a player tries to move an overstacked item out of a container, they will only take the item's usual stack size and thus turn the overstacked items into a normal item stack. In some versions of Minecraft Java Edition, overstacked items could be naturally found, such as Indev 20100124-3, Indev 2010128-2, and Infdev 20100316.
 
 [**level.dat Regeneration:**](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented) level.dat Regeneration refers to the deletion or relocation and then forced recreation of the original level.dat file of a Minecraft world in order to regenerate debug chests or other structures that only generate on the creation of a level.dat file.
-_____________________________________________________________________________________________________________________________________
+
 ## Classic
 
 **Classic 0.0.14a_08**
@@ -32,7 +32,7 @@ ________________________________________________________________________________
 **Classic 0.0.23a_01**
 - By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places.
 
-_____________________________________________________________________________________________________________________________________
+
 ## Indev
   
 **Indev 20100124-3**
@@ -64,7 +64,6 @@ ________________________________________________________________________________
 **Indev 20100219**
 -  Any item can be placed in the furnace fuel and output slot. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition)</sup>
 
-_____________________________________________________________________________________________________________________________________
 ## Infdev
 
 **Infdev 20100227-1** 
