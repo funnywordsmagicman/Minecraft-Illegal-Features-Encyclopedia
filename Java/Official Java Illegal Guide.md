@@ -55,6 +55,8 @@
 
 ![Static Badge](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
 
+&nbsp; ![Static Badge](https://img.shields.io/badge/Gamemode-7eea4b)
+
 &nbsp; ![Static Badge](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
 
 ![Static Badge](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
