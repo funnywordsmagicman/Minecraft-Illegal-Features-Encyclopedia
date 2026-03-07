@@ -43,7 +43,9 @@
 
 &nbsp; ![Trade](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Mob%20AI-401c15) - This refers to illegal or bugged entity behavior.
+&nbsp; ![Mob AI](https://img.shields.io/badge/Mob%20AI-401c15) - This refers to illegal or bugged entity behavior.
+
+&nbsp; ![Static Badge](https://img.shields.io/badge/Entity%20Data-a8838c) - This refers to illegal or bugged entity NBT data or attributes.
 
 ![Block](https://img.shields.io/badge/-Block-134386) - This refers to illegal blocks.
 
@@ -95,7 +97,11 @@
 
 &nbsp; &nbsp; ![Coordinate](https://img.shields.io/badge/Coordinate-755250) - This refers to coordinate or floating point errors that result in glitched placement, terrain, hitboxes, etc.
 
+&nbsp; &nbsp; ![Lighting](https://img.shields.io/badge/Lighting-e2f4a7) - This refers to corrupted or glitched lighting.
+
 &nbsp; ![Networking](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
+
+&nbsp; ![UI](https://img.shields.io/badge/UI-505d75) - This refers to bugs related to container and inventory UI.
 
 ![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
 
