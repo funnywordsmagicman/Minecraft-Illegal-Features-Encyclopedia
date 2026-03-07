@@ -36,7 +36,7 @@ ________________________________________________________________________________
     - [Grass](https://minecraft.wiki/w/Grass)
     - [Water Spawner](https://minecraft.wiki/w/Water_Spawner)
     - [Lava Spawner](https://minecraft.wiki/w/Lava_Spawner)
-    - All 16 colors of [Cloth](https://mcdf.wiki.gg/wiki/Java_Edition:Cloth)
+    - [Cloth](https://mcdf.wiki.gg/wiki/Java_Edition:Cloth) (All 16 colors)
     - [Sponges](https://minecraft.fandom.com/wiki/Sponge)
     - [Coal Ore](https://minecraft.fandom.com/wiki/Coal_Ore)
     - [Obsidian](https://minecraft.fandom.com/wiki/Obsidian)
