@@ -35,7 +35,7 @@ ________________________________________________________________________________
     - Bedrock
     - Grass
     - [Water Spawner](https://minecraft.wiki/w/Water_Spawner)
-    - Lava Spawner
+    - [Lava Spawner](https://minecraft.wiki/w/Lava_Spawner)
     - All 16 colors of Cloth
     - Sponges
     - Coal Ore
