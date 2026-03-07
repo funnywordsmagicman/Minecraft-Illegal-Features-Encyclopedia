@@ -131,26 +131,26 @@ ________________________________________________________________________________
   <img src="https://github.com/user-attachments/assets/5090b783-c46a-46d2-abb0-adb0970a3624" alt="gears">
   <br>
 
-- Breaking the block below the gear and updating back to Alpha 1.0.1_01 will create floating redstone.
+- Breaking the block gears support block and updating back to Alpha 1.0.1_01 will create floating redstone.
 
 **Alpha 1.0.1_01**
-- Activating a lever and then breaking it's support block will keep the lever floating
+- Activating a lever then breaking its support block will leave the lever floating.
 
 **Alpha 1.0.4**
 > [!Note]
-> In order to access the winter mode type and obtain snow and ice, the level.dat will have to be regenerated. This will reset the player position and remove all items within the inventory, as well as changing the world seed. This can be done by deleting level.dat and level.dat_old, then going to the "singleplayer" screen, and selecting the world slot that has the same name as the world save folder. This will likely have to be done several times before the winter type is set to 1
-- Snow Layers were added, but can only be obtained in the Winter Type Map.
+> In order to access the [Winter Mode](https://minecraft.fandom.com/wiki/Java_Edition_removed_features#%22Winter_Mode%22_map_type:~:text=shape%20and%20size.-,%22Winter%20Mode%22,-map%20type) world type and obtain snow and ice, the level.dat will have to be regenerated. This will reset the player position and remove all items within the inventory, as well as changing the world seed. This can be done by deleting level.dat and level.dat_old, then going to the "singleplayer" screen, and selecting the world slot that has the same name as the world save folder. This will likely have to be done several times before the winter type is set to 1
+- [Snow Layers](https://minecraft.fandom.com/wiki/Snow) were added, but can only be obtained in the Winter Type Map.
 - Snow Layers would generate on top of all blocks during snowfall, including non-full blocks.
 
 **Alpha 1.0.5-2**
-- Added Block Replacement Bypass, this is involves placing a support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
+- Added [Block Replacement Bypass](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Replacement_Bypass), which involves placing support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
 - Snowballs stack to 64.
 
 **Alpha 1.0.6**
-- Cactus can be placed on and next to any block.
+- Cacti can be placed on and next to any block.
   
 **Alpha 1.0.11**
-- Placing a door next to a cactus would create a half door.
+- Placing a door next to cacti would create a half door.
 - Buckets of Milk stack to 64.
 
 **Alpha 1.1.1**
@@ -158,13 +158,13 @@ ________________________________________________________________________________
 - Eggs stack to 64.
 
 **Alpha 1.2.0**
-- Zombie Pigmen and skeletons appear to hold their weapons but it is all visual, updating these two mobs past 1.3 will turn them into weaponless weaponless mobs
-- Lava only flows 4 blocks in the nether
+- Zombie Pigmen and skeletons appear to hold their weapons, but it is all visual. Updating these two mobs past beta 1.3 will turn them into weaponless mobs. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#:~:text=note%205%5D-,Old%20Versions,-From%20Alpha%20v1.2.0)</sup>
+- Lava only flows 4 blocks in the nether.
 
 **Alpha 1.2.2**
-- In this version it is possible to get to the Farlands in under an hour. The way to do this is to summon a nether portal and place a boat in it, get into the boat, and once you go through the nether the game will become glitched and you will become stuck in the nether portal animation. Save and Quit the game, and when you load back in you will be at the same coordinates in the nether as you were in the overworld. When you generate another portal and go through your coordinates in the overworld will be multiplied 8 times. Doing this over again will cause your coords to multiply 8 types each time until you are all the way at the farlands
-- Nether Portals can be summoned by pressing F4 which can be used to get to the Farlands and to create illegal block formations
-- Signs can be placed on the Nether Portal Tile
+- Nether Portals can be summoned by pressing F4, which can be used to get to the Farlands and to create illegal block formations.
+- By summoning a portal and entering it while inside a boat, you will enter the nether at your overworld coordinates. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Fast_Travel_Methods#:~:text=References-,Boat%20%26%20Nether%20Portal,-This%20method%20works)</sup>
+- Signs can be placed on the [Portal block](https://minecraft.fandom.com/wiki/Nether_Portal_(block)).
 
 **Alpha 1.2.6**
 - Lava Lakes are able to cut through bedrock if spawned at the bottom of the world
