@@ -1,4 +1,3 @@
-_____________________________________________________________________________________________________________________________________
 
 ## KEY WORDS
 
@@ -136,6 +135,8 @@ ________________________________________________________________________________
 - Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves become solid). <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Full_Block_Leaves)</sup>
 - Placing an inclined rail and breaking the support block would leave the inclined rail without connections. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Inclined_Rail_without_Connection)</sup>
 
+## Alpha
+
 **Alpha 1.0.1_01 - Infdev 20100630-2** (Downgrading)
 - Downgrading redstone that is placed on or against a block will convert it to a [gear](https://minecraft.fandom.com/wiki/Gear) in Infdev 20100630-2.
   
@@ -180,6 +181,8 @@ ________________________________________________________________________________
 
 **Alpha 1.2.6**
 - Lava Lakes are able to cut through bedrock if spawned at the bottom of the world
+
+## Beta
 
 **Beta 1.3.2 - Infdev 20100624**
 > [!Note]
