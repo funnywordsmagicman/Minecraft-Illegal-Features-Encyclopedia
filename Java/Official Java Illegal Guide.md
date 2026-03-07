@@ -203,6 +203,8 @@
 - This version has a file format that is not used in any other version. A folder named "data" is created, which contains "entities.dat" and "zones.dat". This folder will become completely unused upon updating out of this version.
 
 ### Beta 1.3-2
+> [!Caution]
+> Backspacing too many times after pasting control characters can crash the game.
 - Petrified Oak Slabs added.
 - World names can contain the section symbol § and have formatted names.
 - Whenever a player spawns, they will be given a [debug inventory](https://mcdf.wiki.gg/wiki/Java_Edition:Beta_1.3-1_Debug_Inventory) consisting of:
@@ -212,9 +214,9 @@
     - A shovel
     - 1 bed
     - 63 beds
-- Placing a redstone torch against a unsupportable block adjacent to a valid supporting block or against the ceiling next to a supporting block, these would allow the redstone torch to float on any block including air or itself.
-- Placing a bed next to a cactus would result in the lower half adjacent to cactus breaking from Beta 1.3 to Beta 1.9 Prerelease 5.
-- You can paste ASCII Control Codes and the DEL Character into the world name. Beware that with some control characters, backspacing too many times after pasting them can cause a game crash in some versions. 
+- Redstone torches float if placed against non-full blocks adjacent to full ones.
+- Placing a bed next to a cactus would result in the half closest to the cactus breaking.
+- You can paste ASCII Control Codes and the DEL Character into the world name.
 
 ### Beta 1.4-1
 - Locked Chests can generate throughout the world if your computer time is set to April 1st, 2011. You can obtain them from explosions, they will convert to stained glass in the future allowing for several illegal block formations
