@@ -5,7 +5,7 @@ ________________________________________________________________________________
 **Upgrading:** Upgrading from X.XX.XX to Y.YY.YY to obtain a certain illegal occurence
 <br>
 
-**Downgrading:** [Downgrade](https://minecraft.fandom.com/wiki/Tutorials/Downgrading) from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
+**Downgrading:** [Downgrading](https://minecraft.fandom.com/wiki/Tutorials/Downgrading) from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
 <br>
 
 **EDU:** [MinecraftEDU](https://minecraft.fandom.com/wiki/MinecraftEdu) is a modified fork of Minecraft Java Edition, and is an educational form of Minecraft (Not to be confused with [Minecraft Education](https://minecraft.fandom.com/wiki/Minecraft_Education))
@@ -120,12 +120,18 @@ ________________________________________________________________________________
 <br> <br>
 
 
-- Placing Doors one block under a block will cause the upper half to break the block up above it making it possible for bedrock removal
-- Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves are solid).
-- Placing an inclined rail, and then breaking the support block, the game wouldn't update the inclined rail to a flat rail giving you an inclined rail without connections
+- Placing doors under other blocks will replace them with its upper half. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#:~:text=YouTube-,Infdev%20Door/Sign%20Placement,-From%20Infdev%2020100607)</sup>
+- Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves become solid).
+- Placing an inclined rail and breaking the support block would leave the inclined rail without connections.
 
-**Alpha 1.0.1_01 - Infdev 20100630-2**
-- Downgrading Redstone that is placed on against a block will convert it to a gear in Infdev 20100630-2. Breaking the block below the gear and updating back to Alpha 1.0.1_01 will create floating redstone
+**Alpha 1.0.1_01 - Infdev 20100630-2** (Downgrading)
+- Downgrading redstone that is placed on or against a block will convert it to a [gear](https://minecraft.fandom.com/wiki/Gear) in Infdev 20100630-2.
+  
+  <br>
+  <img src="https://github.com/user-attachments/assets/5090b783-c46a-46d2-abb0-adb0970a3624" alt="gears">
+  <br>
+
+- Breaking the block below the gear and updating back to Alpha 1.0.1_01 will create floating redstone.
 
 **Alpha 1.0.1_01**
 - Activating a lever and then breaking it's support block will keep the lever floating
