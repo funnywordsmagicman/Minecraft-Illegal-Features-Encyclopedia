@@ -77,6 +77,8 @@
 
 ![Static Badge](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical manipulation methods.
 
+![Static Badge](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
+
 
 # Timeline
 
