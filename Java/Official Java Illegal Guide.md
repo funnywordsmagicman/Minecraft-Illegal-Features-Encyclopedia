@@ -33,6 +33,10 @@
 
 &nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Enchant-922fcc) - This refers to illegal/incompatible enchantments on items.
 
+&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Repair%20Cost-cc632f) - This refers to illegal repair costs on items.
+
+![Static Badge](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
+
 ![Static Badge](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
