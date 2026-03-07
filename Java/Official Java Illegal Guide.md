@@ -175,6 +175,7 @@
 - Eggs stack to 64. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Milk_Bucket_Stack:~:text=v1.0.17_01%20are%20lost.-,Egg%20Stack,-Eggs%20could%20stack)</sup>
 
 ### Alpha 1.2.0
+- Zombie Pigmen added.
 - Zombie Pigmen and skeletons appear to hold their weapons, but it's only visual. Updating these mobs past beta 1.3 will turn them into weaponless mobs. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#:~:text=note%205%5D-,Old%20Versions,-From%20Alpha%20v1.2.0)</sup>
 - Lava only flows 4 blocks in the nether.
 
