@@ -199,19 +199,18 @@
 ### Beta 1.3.2 - Infdev 20100624
 > [!Note]
 > In order to access this version, the world save folder will have to be renamed to World(1-5). During this downgrade, the level.dat and level.dat_old files must be removed (either by deletion or moving them to another location) temporarily. The level.dat and level.dat_old files have to be restored when updating back to b1.3-2 in order to preserve the Alpha File Format folders of the next version.
-- This version has a file format that is not used in any other version. A folder named "data" is created, which contains "entities.dat" and "zones.dat". This folder will become completely unused upon updating out of this version, and nothing will be converted to a different file format.
+- This version has a file format that is not used in any other version. A folder named "data" is created, which contains "entities.dat" and "zones.dat". This folder will become completely unused upon updating out of this version.
 
 ### Beta 1.3-2
 - Petrified Oak Slabs added.
 - World names can contain the section symbol § and have formatted names.
-- Whenever a player spawns, they will be given:
+- Whenever a player spawns, they will be given a [debug inventory](https://mcdf.wiki.gg/wiki/Java_Edition:Beta_1.3-1_Debug_Inventory) consisting of:
     - 64 torches
     - A pickaxe
     - An axe
     - A shovel
     - 1 bed
     - 63 beds
-- Because chests are still full blocks, you are able to power blocks through chests.
 - Placing a redstone torch against a unsupportable block adjacent to a valid supporting block or against the ceiling next to a supporting block, these would allow the redstone torch to float on any block including air or itself.
 - Placing a bed next to a cactus would result in the lower half adjacent to cactus breaking from Beta 1.3 to Beta 1.9 Prerelease 5.
 - You can paste ASCII Control Codes and the DEL Character into the world name. Beware that with some control characters, backspacing too many times after pasting them can cause a game crash in some versions. 
