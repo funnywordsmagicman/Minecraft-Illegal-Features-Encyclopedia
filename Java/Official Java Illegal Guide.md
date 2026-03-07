@@ -237,16 +237,17 @@
 - Any equipment with damage greater than zero will become a zero stack when dropped. This only works on equipment that has durability. 
 
 ### Beta 1.7
-- Block Transmutation can work by building a piston and water based contraption
-- Block Transmutation can also work with an arrow and piston contraption
-- Pulling a detector rail with a minecart on it will leave it powered, though will only temporarily as it will be reverted once ticked
-- Pushing with a 0/1-tick pulse or by simply pulling a rail or activator rail off a block it would leave it floating in mid air.
-
-### 1.7_01
-- Placing an upwards facing piston of any type, and building a two block high pillar of solid blocks right besides the piston, and place a lever on the top block, in such a way that the lever is right above the piston. Activating this lever will crash the game, and you world will not be able to be opened again in b1.7_01. Update to b1.7.2, and load the world. There will now be a block-entity less moving piston block (Block 36) above the piston.
+- [Block Transmutation](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Moving_Piston_Merge_Transmutation:~:text=Liquid%20Transmutation,-From%20Beta%201.7) is possible through building a piston and water based contraption.
+- [Block Transmutation](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Arrow_Transmutation:~:text=Expand-,Arrow%20Transmutation,-Arrow%20transmutation%20is) is also possible through an arrow and piston contraption.
+- Pulling a detector rail with a minecart on it will leave it powered until ticked.
+- Pushing with a 0/1-tick pulse or by simply pulling a rail or activator rail off a block would leave it floating.
+  
+### Beta 1.7_01
+- Placing an upwards facing piston of any type and building a two block high pillar of solid blocks beside it, then placing a lever on the side of the pillar but above the piston will crash the game upon activation. 
 
 ### Beta 1.7.2
-- Block Transmutation can work by updating a budded piston at the same time another piston pushes a block merging the blocks
+- [Block Transmutation](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Moving_Piston_Merge_Transmutation:~:text=Original%20discovery-,Moving%20Piston%20Merge%20Transmutation,-Warning%3A%20Game%20Crash) is possible through updating a budded piston at the same time another piston pushes a block.
+- Worlds from 1.7_01 that will previously hardlocked will now open, and a moving piston block (Block 36) will appear above bugged pistons.
 
 ### Beta 1.8 Prerelease 1-1
 - Endermen can pick up any block in the game allowing for discontinued endermen variants
