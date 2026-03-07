@@ -279,127 +279,127 @@
   
 | Numeric ID | Block ID | Does it Work? | Special Design Needed? |
 |---|---|---|---|
-| 0 | stone | ![Yes](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
-| 1 | grass | Yes |  |
-| 2 | dirt | Yes |  |
-| 3 | cobblestone | Yes |  |
-| 4 | planks | Yes |  |
-| 5 | sapling | No |  |
-| 6 | bedrock | No |  |
-| 7 | flowing_water | No |  |
-| 8 | water | No |  |
-| 9 | flowing_lava | No |  |
-| 10 | lava | No |  |
-| 11 | sand | Yes |  |
-| 12 | gravel | Yes |  |
-| 13 | gold_ore | Yes |  |
-| 14 | iron_ore | Yes |  |
-| 15 | coal_ore | Yes |  |
-| 16 | log | Yes |  |
-| 17 | leaves | No |  |
-| 18 | sponge | Yes |  |
-| 19 | glass | Yes |  |
-| 20 | lapis_ore | Yes |  |
-| 21 | lapis_block | Yes |  |
-| 22 | dispenser | No |  |
-| 23 | sandstone | Yes |  |
-| 24 | noteblock | No |  |
-| 25 | bed | No |  |
-| 26 | golden_rail | Yes | Rail design |
-| 27 | detector_rail | Yes | Rail design |
-| 28 | sticky_piston | Yes | Piston design |
-| 29 | web | No |  |
-| 30 | tallgrass | No |  |
-| 31 | deadbush | No |  |
-| 32 | piston | Yes | Piston design |
-| 33 | piston_head | No |  |
-| 34 | wool | Yes |  |
-| 35 | piston_extension | No |  |
-| 36 | yellow_flower | No |  |
-| 37 | red_flower | No |  |
-| 38 | brown_mushroom | No |  |
-| 39 | red_mushroom | No |  |
-| 40 | gold_block | Yes |  |
-| 41 | iron_block | Yes |  |
-| 42 | double_stone_slab | Yes |  |
-| 43 | stone_slab | Yes |  |
-| 44 | brick_block | Yes |  |
-| 45 | tnt | Yes | No redstone power design |
-| 46 | bookshelf | Yes |  |
-| 47 | mossy_cobblestone | Yes |  |
-| 48 | obsidian | No |  |
-| 49 | torch | No |  |
-| 50 | fire | No |  |
-| 51 | mob_spawner | No |  |
-| 52 | wooden_stairs | Yes |  |
-| 53 | chest | No |  |
-| 54 | redstone_wire | No |  |
-| 55 | diamond_ore | Yes |  |
-| 56 | diamond_block | Yes |  |
-| 57 | crafting_table | Yes |  |
-| 58 | wheat | No |  |
-| 59 | farmland | Yes |  |
-| 60 | furnace | Yes | Furnace design |
-| 61 | lit_furnace | Yes | Furnace design |
-| 62 | standing_sign | No |  |
-| 63 | wooden_door | No |  |
-| 64 | ladder | No |  |
-| 65 | rail | Yes | Rail design |
-| 66 | stone_stairs | Yes |  |
-| 67 | wall_sign | No |  |
-| 68 | lever | No |  |
-| 69 | stone_pressure_plate | No |  |
-| 70 | iron_door | No |  |
-| 71 | wooden_pressure_plate | No |  |
-| 72 | redstone_ore | ??? [test] |  |
-| 73 | lit_redstone_ore | Yes |  |
-| 74 | unlit_redstone_torch | No |  |
-| 75 | redstone_torch | No |  |
-| 76 | stone_button | No |  |
-| 77 | snow_layer | No |  |
-| 78 | ice | Yes |  |
-| 79 | snow | Yes |  |
-| 80 | cactus | No |  |
-| 81 | clay | Yes |  |
-| 82 | reeds | No |  |
-| 83 | jukebox | No |  |
-| 84 | fence | Yes |  |
-| 85 | pumpkin | No |  |
-| 86 | netherrack | Yes |  |
-| 87 | soul_sand | Yes |  |
-| 88 | glowstone | Yes |  |
-| 89 | portal | No |  |
-| 90 | lit_pumpkin | No |  |
-| 91 | cake | No |  |
-| 92 | unpowered_repeater | No |  |
-| 93 | powered_repeater | No |  |
-| 94 | stained_glass | Yes |  |
-| 95 | trapdoor | Yes | Trapdoor design |
-| 96 | monster_egg | Yes |  |
-| 97 | stonebrick | Yes |  |
-| 98 | brown_mushroom_block | Yes |  |
-| 99 | red_mushroom_block | Yes |  |
-| 100 | iron_bars | Yes |  |
-| 101 | glass_pane | Yes |  |
-| 102 | melon_block | No |  |
-| 103 | pumpkin_stem | No |  |
-| 104 | melon_stem | No |  |
-| 105 | vine | No |  |
-| 106 | fence_gate | Yes | No redstone power design |
-| 107 | brick_stairs | Yes |  |
-| 108 | stone_brick_stairs | Yes |  |
-| 109 | mycelium | Yes |  |
-| 110 | waterlily | No |  |
-| 111 | nether_brick | Yes |  |
-| 112 | nether_brick_fence | Yes |  |
-| 113 | nether_brick_stairs | Yes |  |
-| 114 | nether_wart | No |  |
-| 115 | enchanting_table | No |  |
-| 116 | brewing_stand | No |  |
-| 117 | cauldron | Yes |  |
-| 118 | end_portal | No |  |
-| 119 | end_portal_frame | No |  |
-| 120 | end_stone | Yes |  |
+| 0 | stone | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 1 | grass | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 2 | dirt | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 3 | cobblestone | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 4 | planks | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 5 | sapling | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 6 | bedrock | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 7 | flowing_water | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 8 | water | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 9 | flowing_lava | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 10 | lava | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 11 | sand | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 12 | gravel | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 13 | gold_ore | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 14 | iron_ore | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 15 | coal_ore | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 16 | log | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 17 | leaves | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 18 | sponge | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 19 | glass | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 20 | lapis_ore | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 21 | lapis_block | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 22 | dispenser | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 23 | sandstone | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 24 | noteblock | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 25 | bed | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 26 | golden_rail | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | Rail design |
+| 27 | detector_rail | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | Rail design |
+| 28 | sticky_piston | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | Piston design |
+| 29 | web | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 30 | tallgrass | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 31 | deadbush | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 32 | piston | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | Piston design |
+| 33 | piston_head | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 34 | wool | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 35 | piston_extension | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 36 | yellow_flower | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 37 | red_flower | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 38 | brown_mushroom | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 39 | red_mushroom | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 40 | gold_block | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 41 | iron_block | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 42 | double_stone_slab | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 43 | stone_slab | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 44 | brick_block | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 45 | tnt | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | No redstone power design |
+| 46 | bookshelf | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 47 | mossy_cobblestone | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 48 | obsidian | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 49 | torch | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 50 | fire | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 51 | mob_spawner | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 52 | wooden_stairs | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 53 | chest | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 54 | redstone_wire | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 55 | diamond_ore | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 56 | diamond_block | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 57 | crafting_table | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 58 | wheat | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 59 | farmland | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 60 | furnace | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | Furnace design |
+| 61 | lit_furnace | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | Furnace design |
+| 62 | standing_sign | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 63 | wooden_door | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 64 | ladder | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 65 | rail | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | Rail design |
+| 66 | stone_stairs | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 67 | wall_sign | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 68 | lever | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 69 | stone_pressure_plate | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 70 | iron_door | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 71 | wooden_pressure_plate | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 72 | redstone_ore | ![Static Badge](https://img.shields.io/badge/%20-%3F-yellow) |  |
+| 73 | lit_redstone_ore | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 74 | unlit_redstone_torch | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 75 | redstone_torch | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 76 | stone_button | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 77 | snow_layer | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 78 | ice | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 79 | snow | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 80 | cactus | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 81 | clay | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 82 | reeds | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 83 | jukebox | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 84 | fence | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 85 | pumpkin | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 86 | netherrack | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 87 | soul_sand | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 88 | glowstone | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 89 | portal | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 90 | lit_pumpkin | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 91 | cake | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 92 | unpowered_repeater | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 93 | powered_repeater | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 94 | stained_glass | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 95 | trapdoor | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | Trapdoor design |
+| 96 | monster_egg | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 97 | stonebrick | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 98 | brown_mushroom_block | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 99 | red_mushroom_block | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 100 | iron_bars | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 101 | glass_pane | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 102 | melon_block | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 103 | pumpkin_stem | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 104 | melon_stem | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 105 | vine | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 106 | fence_gate | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) | No redstone power design |
+| 107 | brick_stairs | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 108 | stone_brick_stairs | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 109 | mycelium | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 110 | waterlily | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 111 | nether_brick | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 112 | nether_brick_fence | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 113 | nether_brick_stairs | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 114 | nether_wart | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 115 | enchanting_table | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 116 | brewing_stand | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 117 | cauldron | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
+| 118 | end_portal | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 119 | end_portal_frame | ![Static Badge](https://img.shields.io/badge/%20-No-red) |  |
+| 120 | end_stone | ![Static Badge](https://img.shields.io/badge/%20-Yes-brightgreen) |  |
 </details>
 
 ### Beta 1.8 Prerelease 1-1
