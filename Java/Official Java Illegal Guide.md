@@ -91,8 +91,9 @@
 
 &nbsp; ![Corruption](https://img.shields.io/badge/Corruption-feaa37) - This refers to world or item corruption.
 
-![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
+&nbsp;![Static Badge](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
 
+![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items. 
 
 
 # Timeline
