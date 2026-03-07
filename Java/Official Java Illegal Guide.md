@@ -30,10 +30,10 @@ ________________________________________________________________________________
 - By placing gravity blocks (sand or gravel) above a water source, the gravity block and the water will swap places.
   
 **Indev 20100124-3**
-- The Indev House will spawn upon loading the world.
+- [The Indev House](https://minecraft.wiki/w/Starting_House) will spawn upon loading the world.
 - Within the Indev House, there are chests full of 99 count items. Among these items are:
-    - Bedrock
-    - Grass
+    - [Bedrock](https://minecraft.wiki/w/Bedrock)
+    - [Grass](https://minecraft.wiki/w/Grass)
     - [Water Spawner](https://minecraft.wiki/w/Water_Spawner)
     - [Lava Spawner](https://minecraft.wiki/w/Lava_Spawner)
     - All 16 colors of Cloth
