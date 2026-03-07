@@ -13,6 +13,8 @@ ________________________________________________________________________________
 
 **Mod:** Requires a Mod from "Mods & Extra Files" that can let you either play the version or obtain certain unobtainables
 <br>
+
+**Zero Stack:** Zero stack refers to items that have a <span title="NBT tag referring to the number of items in a stack">count</span> less than 0. These items behave like normal items in the sense that they can be taken out of and put into containers, but will "absorb" any items of the same nbt data. Zero stack items can be used as an effective form of duplication, since placing one by right clicking will create a new, non zero stack item of the same type
 _____________________________________________________________________________________________________________________________________
 
 **Classic 0.0.14a_08**
@@ -37,7 +39,7 @@ ________________________________________________________________________________
     - Coal Ore
     - Obsidian
     - Leaves
-- Exploding A Chest while keeping it open will cause the items inside the chest to convert to 0 stack items. These items are useful for duplication, overstacked items, and understacked items. A 0 Stack item is a the most well known duplication method and java illegal, once you have it you can right click in your inventory and it will give you and infinite amount of diamonds. Every time you right click the 0 stack item, the item count will start going into the negatives allowing for negative durability stacked items, and once it reaches -129 it will overlap and the item count will become +127. This method of 0 stack items works all the way to Alpha 1.2.6
+- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. These items are useful for duplication and overstacking. A 0 Stack item is a the most well known duplication method and java illegal, once you have it you can right click in your inventory and it will give you and infinite amount of diamonds. Every time you right click the 0 stack item, the item count will start going into the negatives allowing for negative durability stacked items, and once it reaches -129 it will overlap and the item count will become +127. This method of 0 stack items works all the way to Alpha 1.2.6
 - As chests were a full cube from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. The action of "shift clicking" was not implemented in these versions, so to place the blocks onto the chest, they must be placed on a block next to them that cannot support them allowing for support blocks on chests
 - Torches could be placed Underwater
 
