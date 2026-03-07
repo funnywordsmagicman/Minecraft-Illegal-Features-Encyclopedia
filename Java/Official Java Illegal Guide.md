@@ -25,13 +25,17 @@
 
 ![Static Badge](https://img.shields.io/badge/-Item-287326) - This refers to illegal items.
 
-![Static Badge](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item coounts.
+&nbsp; ![Static Badge](https://img.shields.io/badge/Item%20NBT-2FCC66) - This refers to illegal item NBT data.
+
+&nbsp; ![Static Badge](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item counts.
 
 ![Static Badge](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
 
 ![Static Badge](https://img.shields.io/badge/-Block-134386) - This refers to illegal block placements.
+
+&nbsp; ![Static Badge](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
 
 ![Static Badge](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
 
