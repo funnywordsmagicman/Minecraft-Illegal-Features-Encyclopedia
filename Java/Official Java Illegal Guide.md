@@ -29,6 +29,10 @@
 
 &nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/-Item%20Count-BB1BA1) - This refers to illegal item counts.
 
+&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Name-cc2f59) - This refers to illegal item names.
+
+&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Enchant-922fcc) - This refers to illegal/incompatible enchantments on items.
+
 ![Static Badge](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
@@ -60,6 +64,9 @@
 &nbsp; ![Static Badge](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
 
 ![Static Badge](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
+
+![Static Badge](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical manipulation methods.
+
 
 # Timeline
 
