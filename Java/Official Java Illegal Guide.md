@@ -41,7 +41,7 @@ ________________________________________________________________________________
     - [Coal Ore](https://minecraft.fandom.com/wiki/Coal_Ore)
     - [Obsidian](https://minecraft.fandom.com/wiki/Obsidian)
     - [Leaves](https://minecraft.fandom.com/wiki/Leaves)
-- [Exploding a chest](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31) with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6.
+- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31)</sup>
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
 
@@ -53,7 +53,7 @@ ________________________________________________________________________________
 
 **Indev 20100206-2**
 - Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
-- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[See More](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206)</sup>
+- Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206)</sup>
 
 **Indev 20100219**
 -  Any item can be placed in the furnace fuel and output slot.
