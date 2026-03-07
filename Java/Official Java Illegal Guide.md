@@ -55,13 +55,15 @@
 
 ![Static Badge](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
 
-&nbsp; ![Static Badge](https://img.shields.io/badge/Gamemode-7eea4b)
+&nbsp; ![Static Badge](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
 
 ![Static Badge](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
 
 &nbsp; ![Static Badge](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
+
+&nbsp; &nbsp; ![Static Badge](https://img.shields.io/badge/Cheats-ea4b7e)
 
 ![Static Badge](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
 
