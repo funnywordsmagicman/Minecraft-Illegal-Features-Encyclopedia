@@ -288,15 +288,15 @@
 
 ## Java 1.2
 
-**12w07a**
+### 12w07a
 - The file format is now Anvil instead of MCRegion. This converts all .mcr files to .mca, however the .mcr files are maintained within the world save folder for all three dimensions. Additionally, a level.dat backup is taken named level.dat_mcr. These are all discontinued files.
 - The End in this version does not generate with any main end island it is just you and the void. Additionally when you kill the ender dragon the exit portal will spawn where the dragon died instead of at 0.0
 
-**12w08a**
+### 12w08a
 - Iron Golems current have no knockback resistance which will not revert when updating to newer versions allowing for discontinued variants of the iron golem
 - Spawning an Iron Golem would remove the block above it meaning you can uses this as bedrock removal
 
-**0.982 Classroom (EDU)**
+### 0.982 Classroom (EDU)
 - Added Information Block, Information Sign, Spawn Block, Build Allow Block, Build Disallow Block, Border Block, Foundation Block, Teleport Block. These are all obtainable through creative mode or the /give command and they all have the ids of 137-144. Some of these items will convert to unobtainable blocks, the Build Disallow Block would convert to a command block, the information sign converted to a flower pot item, the border block would convert to the carrot tile item, the spawn block would convert to the potato tile item, the teleport item would convert to a mob head item, and the build allow block will convert to a beacon.
 - There is a teacher menu that allows for the teacher to enter creative mode and also gives numerous discontinued items.
 - Currently any command can be run by joining the game as a teacher all while being in survival mode.
@@ -306,10 +306,10 @@
 
 ## Java 1.3
 
-**12w15a**
+### 12w15a
 - Shift click works with brewing stands. This allows for overstacked glass bottles in brewing stand.
 
-**12w17a-2**
+### 12w17a-2
 - Chunk resetting is possible by overloading a chunk with written books. It requires over a chest of books filled with random unicode characters. This allows for an assortment of block discontinued features and item duplication. This will be further utilized in later versions.
 - The title for written books is currently 16 characters which later will be updated to 15
 - Pressing enter inside a book and quill creates a newline character, but it does not advance the line. This allows for a total of up to 256 newline characters, which is far more than will be allowed in future versions.
@@ -318,23 +318,23 @@
 - Carriage Return characters can be copy pasted in written books
 - You could make minecarts have an infinite fire texture on them by making them quickly touch fire. Starting with 12w18a (1.3.1), minecarts no longer display this texture, but updating these minecarts to current versions shows that they have a 'Fire' property of 300, when normally they should have `Fire` at 0, or 160 if they quickly touch fire without being destroyed in current versions. 
 
-**12w21a**
+### 12w21a
 - Villagers now have trades. Every single villager trade will become unobtainable in future versions, whether through invalid prices or invalid items. Villager trades are not based on tiers and trade amounts can vary. Eyes of enders and rotten flesh can currently be bought, which will no longer be possible in the next two versions. Bottles of enchanting are obtainable through trading now.
 - When creating a new world, if the name picked matches a current world folder name, additional characters will be added to the new folder name. The actual world name will only be the original picked name, which must be within the 32 character limit. However, if the game closes out while generating the world, the folder name will be applied to the world name, regardless of the folder name length. From 12w18a through 19w11b, world names would uses dashes after the name, and from 19w12a+ a number in parentheses is added to the end. The longest possible name is a bit complicated to figure out, since it is limited to the longest possible folder name, and the maximum length of the folder name is determined by the length of the file path, which is limited to 248 characters. Due to the version range,
 
-**12w22a-2**
+### 12w22a-2
 - Added the gravel to flint trade and the sell arrow trade, which will become discontinued in certain amounts in future versions. The cleric villager can now enchant armor, which will all become discontinued trades. Eyes of ender are now sold instead of bought, which will become unobtainable in a future version.
 - Block Transmutation is possible by using tripwires allowing for various unobtainable blocks
 
-**12w24a**
+### 12w24a
 - Shift Clicking a stacked item into an enchantment table will remove the nbt data of the item including written books allowing for various discontinued features
 
-**0.984 Classroom (EDU)**
+### 0.984 Classroom (EDU)
 - A file called EduWorldSettings.ini is generated within the world save. A folder called MCEdu is created within the world save, which includes several files that are gnenerated when the server is launched. These files and folders are exclusive to Edu versions, and will be discontinued in future versions.
 
 ## Java 1.4 - Pretty Scary Update
 
-**12w32a-2**
+### 12w32a-2
 - Equipment droped from mobs ranges in durability. The durability can be 0 which allows for various 0 durabilit equipment pieces
 - Zombie Pigmen that spawn in this version appear to be holding the correct items, but in reality they are holding zombie gear (iron shovels, iron swords, or nothing)
 - Pigs that are struck by lightning will spawn Zombie Pigmen that are holding nothing
@@ -342,69 +342,69 @@
 - Within the data folder, the villages.dat file now generates. This file tracks player made villages, and will become discontinued in future versions
 - The center of a map would be aligned on the location the map was crafted. This was changed in 12w34a, where maps would now align to a grid, regardless of crafting location. Therefore maps with center locations that do not fit the grid are all discontinued.
 
-**12w34a**
+### 12w34a
 - Multiple Item frames can be placed on the same block which will become unobtainable in future versions
 
-**12w34b**
+### 12w34b
 - Added the canpickuploot tag for mobs. Mobs such as skeletons and zombie pigmen with this tag can pick up item stacks larger than 127 items, which causes them to lose their held item. Skeletons and zombie pigmen holding nothing will become unobtainable in future versions
 
-**12w37a**
+### 12w37a
 - Wither can explode end portal frames when spawned which results in end portal frame removal.
 - Mobs that burn in sunlight and can wear helmets occasionally do not check the durability of the damage caused to their helmets.
 
-**12w41a**
+### 12w41a
 - Anvils can rename an item to have no characters and all spaces which will become unobtainable in future versions
 
-**12w42a**
+### 12w42a
 - Number Keys can be used to place items anywhere, this allows for invalid items in furnace slots, brewing stands, and armor slots
 
-**1.4.4**
+### 1.4.4
 - Baby mobs can be spawned by using spawn eggs on the parents. So using a wolf spawn egg on an ownerless wolf creates an ownerless baby wolf which will become unobtainable in future versions
 - Support Blocks could be placed on End Portal Frames because they were considered full blocks
 
-**12w49a**
+### 12w49a
 - Any item can be enchanted using an anvil. This will provide a variety of unobtainable enchanted items
 - Enchanted Books can be overstacked, after they are overstacked they can be shift-clicked into an enchantment table allowing for no nbt enchanted books
 - Shears can be enchanted with Silk Touch
 
-**12w49a - 12w41a (Downgrade)**
+### ;12w49a - 12w41a (Downgrade)
 - All items with invalid enchantments can be combined in an anvil. Downgrading these items from the previous version allows for multiple enchantments on individual items.
 
-**12w50a**
+### 12w50a
 - Enchanted Books can have invalid tier levels when updating
 - There is a small chance that level 5 enchanted book trades can cost more than 64 emeralds, which will become a discontinued trade.
 
 ## Java 1.5 - Redstone Update
 
-**13w01a**
+### 13w01a
 - Hoppers are currently capable of placing items in any inventory slots, allowing for invalid items in brewing stands and invalid items in furnace slots. By placing items not normal craftable in a furnace output slot, these items can register as crafted by statistics in future versions.
 - Daylight sensors can be placed in the nether and will permanently powered on
 - Hanging redstone torches were able to float when the block they are attached to was removed, as long as they had a block underneath them
 - Placing a rail on a block that is inside of an end portal will leave the rail floating on top of the end portal block
 
-**13w06a-1**
+### 13w06a-1
 - All minecarts will be converted to spawner minecarts which will become unobtainable later
 - Spawner minecarts can be used for future chunk regeneration. By moving a spawner minecart into a chunk from this version through 1.10.2, and leaving it unloaded until 1.13-pre2 or later, the chunk containing the minecart will regenerate.
 
-**13w11a**
+### 13w11a
 - Silk Touch and Looting can be combined on one enchanted book, this is unobtainable in future versions
 
-**Minecraft 2.0-Red (April Fools)**
+### Minecraft 2.0-Red (April Fools)
 - In Super Hostile Mode, lightning will strike every 2-5 minutes spawning Wool Headed Zombies, Wool Headed Skeletons, and Wool Haded Zombie Pigmen and Pigmen with Battle Signs among many others, pushing these mobs into a portal will cause them to not despawn when the lightning strike resets, you can then update to 13w16b to obtain name tags and name all the wool headed mobs and save them for future updates
 - Zombie Pigmen will spawn naturally in the nether holding Battle Signs, these Battle signs would hold certain enchantments including Sharpness/Smite/Bane of Arthropods, Looting, Fire Aspect, and Knockback. Killing the pigmen will give a chance of dropping the Battle Sign
 
 ## Java 1.6 - Horse Update
 
-**13w16a-2**
+### 13w16a-2
 - Horse armor is craftable, and stacks to 64, allowing for overstacked horse armor in future versions.
 - Horse saddles will convert to armor stands in future versions, allowing for a variety of discontinued features associted to armor stands, including armor stands in the furnace fuel slot and overstacked armor stands.
 - Added Horses, Donkeys, and Mules. These mobs can have much faster speed values than future versions, as well as jump values that will become discontinued in the future.
 
-**13w21a**
+### 13w21a
 - Updating Mobs from this version into future version will allow for unobtainable variants of mobs due to speed change
 - You can saddle and put armor on wild horses in this version
 
-**1.6.3-1**
+### 1.6.3-1
 - Bounding boxes now save with the world. In order for current structures (witch huts, nether fortresses, etc.) to be saved to the world file, the player must load the appropriate chunks within the game manually. After this is completed, structures will be compatible in all snapshots starting with snapshot. All these bounding boxes will not be obtainable in their current locations in future versions.
 - These bounding boxes are stored in structure files, which are generated when the respective structure is loaded. These files are Village.dat, Fortress.dat, Temple.dat, Mineshaft.dat, and Stronghold.dat. All of these files will be discontinued in a future version.
 
@@ -1087,6 +1087,8 @@ Java 1.17 - Caves & Cliffs: Part 1
 **21w39a - 21w37a (Downgrading)**
 - Currently washing a banner in a cauldron cause it to retain the id tag while losing all of the patterns, creating a blank banner with an unnecessary nbt tag. By placing and breaking this banner it will change the tag to be an empty pattern tag. These are two variants of banners that will be discontinued in future versions.
 
+##Java 1.19 - The Wild Update
+
 **1.19-Exp 1**
 > [!Note]
 > In order to play your world in this version, world save insertion must be used. This requires first removing the world save from the world saves folder. From here, select create world and create a world with the same folder name as the world save. Then, while still in the create world screen, drag the world save into the saves folder, and select create world. This forces the world to load without removing the level.dat or level.dat_old files.
@@ -1161,6 +1163,8 @@ Java 1.17 - Caves & Cliffs: Part 1
 - Suspicious sand is not supposed to be obtainable as an item. However, by dropping it into a bubble column, cobwebs, or the end portal, it still drops.
 - Crafting decorated pots creates a shard list tag. In future versions this will be a sherd list tag, however updating these will maintain the shard tag creating discontinued pot variants. This tag is not visible.
 - Placing decorated pots in water waterlogs them, however it does not properly update water, allowing for discontinued waterlogged decorated pot configurations.
+
+## Java 1.20 - Trails & Tales
 
 **23w12a**
 - Suspicious gravel is not supposed to be obtainable as an item. However, by dropping it into a bubble column, cobwebs, or the end portal, it still drops.
@@ -1297,6 +1301,8 @@ Java 1.17 - Caves & Cliffs: Part 1
 
 **1.20.5-Prerelease 1**
 - Mobs that wear equipment that spawn from ominous trial spawners can now wear enchanted armor and hold enchanted weapons. The protection types on this armor are not properly mutually exclusive, allowing for mobs wearing invalid protection armor.
+
+##Java 1.21 - Tricky Trials
 
 **24w18a**
 - Maces can currently have sharpness applied in an anvil, which will not be obtainable in future versions
