@@ -56,7 +56,7 @@ ________________________________________________________________________________
 - Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Seed_Placement:~:text=All%20Blocks-,Seed%20Placement,-From%20Indev%2020100206)</sup>
 
 **Indev 20100219**
--  Any item can be placed in the furnace fuel and output slot.
+-  Any item can be placed in the furnace fuel and output slot. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Item_in_Furnace_Slot#:~:text=Obtaining-,Placing%20Output%20Slot,-From%20the%20addition)</sup>
 
 **Infdev 20100227-1** 
 - [Brick Pyramids](https://minecraft.fandom.com/wiki/Brick_pyramid) generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
@@ -73,7 +73,7 @@ ________________________________________________________________________________
 **Infdev 20100316** 
 > [!Caution]
 > This version requires the Infdev 20100316 saving mod to save and quit the game; you can find it in the Links folder. \
-> Opening Chests in this version would crash the game.
+> Opening containers in this version would crash the game. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Potentially_Dangerous_Versions#:~:text=Infdev%2020100227%2D1433%20%2D%20Infdev%2020100316)</sup>
 - The Farlands generate, however they are a flat wall and unreachable by normal means.
 - Players would spawn with 999 stacks of axes, shovels, pickaxes, torches, flint and steel, oak planks, glass blocks, and arrows every time you load the world. These are technically -25 stacks which is obtainable, but because of the Chest crash they can not be moved to chests in this version.
 
