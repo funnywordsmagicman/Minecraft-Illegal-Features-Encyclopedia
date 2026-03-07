@@ -98,9 +98,9 @@ ________________________________________________________________________________
 
 
 **Infdev 20100615**
-- Water and Lava can flow beside each other without creating stone. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava)</sup>
+- Water and lava can flow beside each other without creating stone. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Water_Touching_Lava)</sup>
 - Lava flows 8 blocks in the overworld. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Invalid_Lava_Level_in_the_Overworld)</sup>
-- Water and Lava do not update correctly, leading to water and lava in different flowing states without a source block.
+- Water and lava do not update correctly, leading to water and lava in different flowing states without a source block.
 - Caves do not generate in this version. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:No_Cave_Generation)</sup>
 - In this version, no bedrock will spawn at the bottom of the world. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Seed-Bedrock_Block_Mismatch#No_Bedrock_Chunks)</sup>
 
@@ -109,6 +109,9 @@ ________________________________________________________________________________
 
 **Infdev 20100617-2**
 - The bottom-most layer of the world is made from part bedrock and part stone.
+
+**Infdev 20100624**
+- The game will crash if there are any loaded chunks with water spawners due to the removal of their id.
 
 **Infdev 20100625-2**
 - Added [spawners](https://minecraft.fandom.com/wiki/Monster_Spawner), which can be mined by hand and will drop as an item.
@@ -121,8 +124,8 @@ ________________________________________________________________________________
 
 
 - Placing doors under other blocks will replace them with its upper half. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#:~:text=YouTube-,Infdev%20Door/Sign%20Placement,-From%20Infdev%2020100607)</sup>
-- Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves become solid).
-- Placing an inclined rail and breaking the support block would leave the inclined rail without connections.
+- Torches could be placed on leaves if the graphics setting was on 'Fast' (leaves become solid). <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Full_Block_Leaves)</sup>
+- Placing an inclined rail and breaking the support block would leave the inclined rail without connections. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Inclined_Rail_without_Connection)</sup>
 
 **Alpha 1.0.1_01 - Infdev 20100630-2** (Downgrading)
 - Downgrading redstone that is placed on or against a block will convert it to a [gear](https://minecraft.fandom.com/wiki/Gear) in Infdev 20100630-2.
