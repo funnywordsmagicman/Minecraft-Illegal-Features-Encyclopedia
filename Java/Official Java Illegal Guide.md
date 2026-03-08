@@ -319,23 +319,23 @@
   
 | Numeric ID | Block ID | Does it work? |
 |---|---|---|
-| 0 | air | [No] |
-| 1 | stone | [Yes] |
-| 2 | grass | [Yes] |
-| 3 | dirt | [Yes] |
-| 4 | cobblestone | [Yes] |
-| 5 | planks | [Yes] |
-| 6 | sapling | [No] |
-| 7 | bedrock | [No] |
-| 8 | flowing_water | [No] |
-| 9 | water | [No] |
-| 10 | flowing_lava | [No] |
-| 11 | lava | [No] |
-| 12 | sand | [Yes] |
-| 13 | gravel | [Yes] |
-| 14 | gold_ore | [Yes] |
-| 15 | iron_ore | [Yes] |
-| 16 | coal_ore | [Yes] |
+| 0 | air | ![No] |
+| 1 | stone | ![Yes] |
+| 2 | grass | ![Yes] |
+| 3 | dirt | ![Yes] |
+| 4 | cobblestone | ![Yes] |
+| 5 | planks | ![Yes] |
+| 6 | sapling | ![No] |
+| 7 | bedrock | ![No] |
+| 8 | flowing_water | ![No] |
+| 9 | water | ![No] |
+| 10 | flowing_lava | ![No] |
+| 11 | lava | ![No] |
+| 12 | sand | ![Yes] |
+| 13 | gravel | ![Yes] |
+| 14 | gold_ore | ![Yes] |
+| 15 | iron_ore | ![Yes] |
+| 16 | coal_ore | ![Yes] |
 | 17 | log | [Yes] |
 | 18 | leaves | [No] |
 | 19 | sponge | [Yes] |
