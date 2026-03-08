@@ -20,7 +20,7 @@ jobs:
           JSON=$(curl -s "$FEED")
 
           # get newest edit that is NOT minor AND NOT a bot
-          UPDATED=$(echo "$JSON" | jq -r '.query.recentchanges[] | select(.minor == null and (.bot == null or .bot == false)) | .timestamp' | head -n 1)
+          UPDATED=$(echo "$JSON" | jq -r '.query.recentchanges[] | select(.minor == null) | .timestamp' | head -n 1)
 
           # fallback if no edits found
           if [ -z "$UPDATED" ]; then
