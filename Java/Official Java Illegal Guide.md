@@ -119,18 +119,18 @@
 - Indev house chests would now contain 100 count items.
 
 ### Indev 20100201-2 ![Block Configuration] ![Technical]
-- Sponges would soak up water and lava spawners, allowing for discontinued configurations of the water and lava.
+- Sponges would soak up water and lava spawners.
 
-### Indev 20100206-2
+### Indev 20100206-2 ![Block Configuration] ![Durability]
 - Golden hoe durability is higher than normal, causing golden hoes at a low enough durability updated from this version to have negative durability.
 - Tilling dirt underneath a block and then placing seeds on the farmland will remove the block above, including bedrock. <sup>[\[2\]][2]</sup>
 
-### Indev 20100219
+### Indev 20100219 ![UI] ![Technical]
 -  Any item can be placed in the furnace fuel and output slot. <sup><sup>[\[3\]][3]</sup></sup>
 
 ## Infdev
 
-### Infdev 20100227-1
+### Infdev 20100227-1 ![Debug] ![Structure]
 - [Brick Pyramids] generate and are the only source of bricks. The closest one to spawn generates at 502, 553, and it will always generate there regardless of seed.
 - Instead of a solid tip, there is a 1x1 hole running from the very top of the pyramid to its base.
 - Brick pyramids generate too high, resulting in their top layers being truncated by the height limit, resulting in a "brick square frustum".
