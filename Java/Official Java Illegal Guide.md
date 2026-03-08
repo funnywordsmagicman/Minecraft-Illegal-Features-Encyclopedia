@@ -65,7 +65,7 @@
   - ![Block Dupe] - This refers to block duplication methods.
   - ![Entity Dupe] - This refers to entity duplication methods.
 - ![Fast Travel] - This refers to fast travel methods.
-- ![Destruction] - This refers to block destruction methods.
+- ![Block Destruction] - This refers to block destruction methods.
 - ![Technical] - This refers to technical behavior or manipulation methods.
   - ![Redstone Behavior] - This refers to illegal redstone behavior.
   - ![Command] - This refers to command-based exploits or glitches.
