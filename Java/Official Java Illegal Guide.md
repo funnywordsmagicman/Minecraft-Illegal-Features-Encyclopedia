@@ -336,114 +336,114 @@
 | 14 | gold_ore | ![Yes] |
 | 15 | iron_ore | ![Yes] |
 | 16 | coal_ore | ![Yes] |
-| 17 | log | [Yes] |
-| 18 | leaves | [No] |
-| 19 | sponge | [Yes] |
-| 20 | glass | [Yes] |
-| 21 | lapis_ore | [Yes] |
-| 22 | lapis_block | [Yes] |
-| 23 | dispenser | [No] |
-| 24 | sandstone | [Yes] |
-| 25 | noteblock | [No] |
-| 26 | bed | [No] |
-| 27 | golden_rail | [Yes] |
-| 28 | detector_rail | [Yes] |
-| 29 | sticky_piston | [Yes] |
-| 30 | web | [No] |
-| 31 | tallgrass | [No] |
-| 32 | deadbush | [No] |
-| 33 | piston | [Yes] |
-| 34 | piston_head | [No] |
-| 35 | wool | [Yes] |
-| 36 | piston_extension | [No] |
-| 37 | yellow_flower | [No] |
-| 38 | red_flower | [No] |
-| 39 | brown_mushroom | [No] |
-| 40 | red_mushroom | [No] |
-| 41 | gold_block | [Yes] |
-| 42 | iron_block | [Yes] |
-| 43 | double_stone_slab | [Yes] |
-| 44 | stone_slab | [Yes] |
-| 45 | brick_block | [Yes] |
-| 46 | tnt | [Yes] |
-| 47 | bookshelf | [Yes] |
-| 48 | mossy_cobblestone | [Yes] |
-| 49 | obsidian | [No] |
-| 50 | torch | [No] |
-| 51 | fire | [No] |
-| 52 | mob_spawner | [No] |
-| 53 | wooden_stairs | [Yes] |
-| 54 | chest | [No] |
-| 55 | redstone_wire | [No] |
-| 56 | diamond_ore | [Yes] |
-| 57 | diamond_block | [Yes] |
-| 58 | crafting_table | [Yes]|
-| 59 | wheat | [No] |
-| 60 | farmland | [Yes] |
-| 61 | furnace | [No] |
-| 62 | lit_furnace | [No] |
-| 63 | standing_sign | [No] |
-| 64 | wooden_door | [No] |
-| 65 | ladder | [No] |
-| 66 | rail | [Yes] |
-| 67 | stone_stairs | [Yes] |
-| 68 | wall_sign | [No] |
-| 69 | lever | [No] |
-| 70 | stone_pressure_plate | [No] |
-| 71 | iron_door | [No] |
-| 72 | wooden_pressure_plate | [No] |
-| 73 | redstone_ore | [Yes] |
-| 74 | lit_redstone_ore | [Yes] |
-| 75 | unlit_redstone_torch | [No] |
-| 76 | redstone_torch | [No] |
-| 77 | stone_button | [No] |
-| 78 | snow_layer | [No] |
-| 79 | ice | [Yes] |
-| 80 | snow | [Yes] |
-| 81 | cactus | [No] |
-| 82 | clay | [Yes] |
-| 83 | reeds | [No] |
-| 84 | jukebox | [No] |
-| 85 | fence | [Yes] |
-| 86 | pumpkin | [No] |
-| 87 | netherrack | [Yes] |
-| 88 | soul_sand | [Yes] |
-| 89 | glowstone | [Yes] |
-| 90 | portal | [No] |
-| 91 | lit_pumpkin | [No] |
-| 92 | cake | [No] |
-| 93 | unpowered_repeater | [No] |
-| 94 | powered_repeater | [No] |
-| 95 | stained_glass | [Yes] |
-| 96 | trapdoor | [Yes] |
-| 97 | monster_egg | [Yes] |
-| 98 | stonebrick | [Yes] |
-| 99 | brown_mushroom_block | [Yes] |
-| 100 | red_mushroom_block | [Yes] |
-| 101 | iron_bars | [Yes] |
-| 102 | glass_pane | [Yes] |
-| 103 | melon_block | [No] |
-| 104 | pumpkin_stem | [No] |
-| 105 | melon_stem | [No] |
-| 106 | vine | [No] |
-| 107 | fence_gate | [Yes] |
-| 108 | brick_stairs | [Yes] |
-| 109 | stone_brick_stairs | [Yes] |
-| 110 | mycelium | [Yes] |
-| 111 | waterlily | [No] |
-| 112 | nether_brick | [Yes] |
-| 113 | nether_brick_fence | [Yes] |
-| 114 | nether_brick_stairs | [Yes] |
-| 115 | nether_wart | [No] |
-| 116 | enchanting_table | [No] |
-| 117 | brewing_stand | [No] |
-| 118 | cauldron | [Yes] |
-| 119 | end_portal | [No] |
-| 120 | end_portal_frame | [No] |
-| 121 | end_stone | [Yes] |
-| 122 | dragon_egg | [No] |
-| 123 | redstone_lamp | [Yes] |
-| 124 | lit_redstone_lamp | [Yes] |
+| 17 | log | ![Yes] |
+| 18 | leaves | ![No] |
+| 19 | sponge | ![Yes] |
+| 20 | glass | ![Yes] |
+| 21 | lapis_ore | ![Yes] |
+| 22 | lapis_block | ![Yes] |
+| 23 | dispenser | ![No] |
+| 24 | sandstone | ![Yes] |
+| 25 | noteblock | ![No] |
+| 26 | bed | ![No] |
+| 27 | golden_rail | ![Yes] |
+| 28 | detector_rail | ![Yes] |
+| 29 | sticky_piston | ![Yes] |
+| 30 | web | ![No] |
+| 31 | tallgrass | ![No] |
+| 32 | deadbush | ![No] |
+| 33 | piston | ![Yes] |
+| 34 | piston_head | ![No] |
+| 35 | wool | ![Yes] |
+| 36 | piston_extension | ![No] |
+| 37 | yellow_flower | ![No] |
+| 38 | red_flower | ![No] |
+| 39 | brown_mushroom | ![No] |
+| 40 | red_mushroom | ![No] |
+| 41 | gold_block | ![Yes] |
+| 42 | iron_block | ![Yes] |
+| 43 | double_stone_slab | ![Yes] |
+| 44 | stone_slab | ![Yes] |
+| 45 | brick_block | ![Yes] |
+| 46 | tnt | ![Yes] |
+| 47 | bookshelf | ![Yes] |
+| 48 | mossy_cobblestone | ![Yes] |
+| 49 | obsidian | ![No] |
+| 50 | torch | ![No] |
+| 51 | fire | ![No] |
+| 52 | mob_spawner | ![No] |
+| 53 | wooden_stairs | ![Yes] |
+| 54 | chest | ![No] |
+| 55 | redstone_wire | ![No] |
+| 56 | diamond_ore | ![Yes] |
+| 57 | diamond_block | ![Yes] |
+| 58 | crafting_table | ![Yes] |
+| 59 | wheat | ![No] |
+| 60 | farmland | ![Yes] |
+| 61 | furnace | ![No] |
+| 62 | lit_furnace | ![No] |
+| 63 | standing_sign | ![No] |
+| 64 | wooden_door | ![No] |
+| 65 | ladder | ![No] |
+| 66 | rail | ![Yes] |
+| 67 | stone_stairs | ![Yes] |
+| 68 | wall_sign | ![No] |
+| 69 | lever | ![No] |
+| 70 | stone_pressure_plate | ![No] |
+| 71 | iron_door | ![No] |
+| 72 | wooden_pressure_plate | ![No] |
+| 73 | redstone_ore | ![Yes] |
+| 74 | lit_redstone_ore | ![Yes] |
+| 75 | unlit_redstone_torch | ![No] |
+| 76 | redstone_torch | ![No] |
+| 77 | stone_button | ![No] |
+| 78 | snow_layer | ![No] |
+| 79 | ice | ![Yes] |
+| 80 | snow | ![Yes] |
+| 81 | cactus | ![No] |
+| 82 | clay | ![Yes] |
+| 83 | reeds | ![No] |
+| 84 | jukebox | ![No] |
+| 85 | fence | ![Yes] |
+| 86 | pumpkin | ![No] |
+| 87 | netherrack | ![Yes] |
+| 88 | soul_sand | ![Yes] |
+| 89 | glowstone | ![Yes] |
+| 90 | portal | ![No] |
+| 91 | lit_pumpkin | ![No] |
+| 92 | cake | ![No] |
+| 93 | unpowered_repeater | ![No] |
+| 94 | powered_repeater | ![No] |
+| 95 | stained_glass | ![Yes] |
+| 96 | trapdoor | ![Yes] |
+| 97 | monster_egg | ![Yes] |
+| 98 | stonebrick | ![Yes] |
+| 99 | brown_mushroom_block | ![Yes] |
+| 100 | red_mushroom_block | ![Yes] |
+| 101 | iron_bars | ![Yes] |
+| 102 | glass_pane | ![Yes] |
+| 103 | melon_block | ![No] |
+| 104 | pumpkin_stem | ![No] |
+| 105 | melon_stem | ![No] |
+| 106 | vine | ![No] |
+| 107 | fence_gate | ![Yes] |
+| 108 | brick_stairs | ![Yes] |
+| 109 | stone_brick_stairs | ![Yes] |
+| 110 | mycelium | ![Yes] |
+| 111 | waterlily | ![No] |
+| 112 | nether_brick | ![Yes] |
+| 113 | nether_brick_fence | ![Yes] |
+| 114 | nether_brick_stairs | ![Yes] |
+| 115 | nether_wart | ![No] |
+| 116 | enchanting_table | ![No] |
+| 117 | brewing_stand | ![No] |
+| 118 | cauldron | ![Yes] |
+| 119 | end_portal | ![No] |
+| 120 | end_portal_frame | ![No] |
+| 121 | end_stone | ![Yes] |
+| 122 | dragon_egg | ![No] |
+| 123 | redstone_lamp | ![Yes] |
+| 124 | lit_redstone_lamp | ![Yes] |
 
 </details>
 
@@ -459,128 +459,129 @@
   <summary> <strong>Moving Piston Merge Transmutation Block list</strong></summary>
   
 | Numeric ID | Block ID | Does it Work? | Special Design Needed? |
+| Numeric ID | Block ID | Does it Work? | Special Design Needed? |
 |---|---|---|---|
-| 0 | stone | [Yes] |  |
-| 1 | grass | [No] |  |
-| 2 | dirt | [Yes] |  |
-| 3 | cobblestone | [Yes] |  |
-| 4 | planks | [Yes] |  |
-| 5 | sapling | [No] |  |
-| 6 | bedrock | [No] |  |
-| 7 | flowing_water | [No] |  |
-| 8 | water | [No] |  |
-| 9 | flowing_lava | [No] |  |
-| 10 | lava | [No] |  |
-| 11 | sand | [Yes] |  |
-| 12 | gravel | [Yes] |  |
-| 13 | gold_ore | [Yes] |  |
-| 14 | iron_ore | [Yes] |  |
-| 15 | coal_ore | [Yes] |  |
-| 16 | log | [Yes] |  |
-| 17 | leaves | [No] |  |
-| 18 | sponge | [Yes] |  |
-| 19 | glass | [Yes] |  |
-| 20 | lapis_ore | [Yes] |  |
-| 21 | lapis_block | [Yes] |  |
-| 22 | dispenser | [No] |  |
-| 23 | sandstone | [Yes] |  |
-| 24 | noteblock | [No] |  |
-| 25 | bed | [No] |  |
-| 26 | golden_rail | [Yes] | Rail design |
-| 27 | detector_rail | [Yes] | Rail design |
-| 28 | sticky_piston | [Yes] | Piston design |
-| 29 | web | [No] |  |
-| 30 | tallgrass | [No] |  |
-| 31 | deadbush | [No] |  |
-| 32 | piston | [Yes] | Piston design |
-| 33 | piston_head | [No] |  |
-| 34 | wool | [Yes] |  |
-| 35 | piston_extension | [No] |  |
-| 36 | yellow_flower | [No] |  |
-| 37 | red_flower | [No] |  |
-| 38 | brown_mushroom | [No] |  |
-| 39 | red_mushroom | [No] |  |
-| 40 | gold_block | [Yes] |  |
-| 41 | iron_block | [Yes] |  |
-| 42 | double_stone_slab | [Yes] |  |
-| 43 | stone_slab | [Yes] |  |
-| 44 | brick_block | [Yes] |  |
-| 45 | tnt | [Yes] | No redstone power design |
-| 46 | bookshelf | [Yes] |  |
-| 47 | mossy_cobblestone | [Yes] |  |
-| 48 | obsidian | [No] |  |
-| 49 | torch | [No] |  |
-| 50 | fire | [No] |  |
-| 51 | mob_spawner | [No] |  |
-| 52 | wooden_stairs | [Yes] |  |
-| 53 | chest | [No] |  |
-| 54 | redstone_wire | [No] |  |
-| 55 | diamond_ore | [Yes] |  |
-| 56 | diamond_block | [Yes] |  |
-| 57 | crafting_table | [Yes] |  |
-| 58 | wheat | [No] |  |
-| 59 | farmland | [Yes] |  |
-| 60 | furnace | [Yes] | Furnace design |
-| 61 | lit_furnace | [Yes] | Furnace design |
-| 62 | standing_sign | [No] |  |
-| 63 | wooden_door | [No] |  |
-| 64 | ladder | [No] |  |
-| 65 | rail | [Yes] | Rail design |
-| 66 | stone_stairs | [Yes] |  |
-| 67 | wall_sign | [No] |  |
-| 68 | lever | [No] |  |
-| 69 | stone_pressure_plate | [No] |  |
-| 70 | iron_door | [No] |  |
-| 71 | wooden_pressure_plate | [No] |  |
-| 72 | redstone_ore | [?] |  |
-| 73 | lit_redstone_ore | [Yes] |  |
-| 74 | unlit_redstone_torch | [No] |  |
-| 75 | redstone_torch | [No] |  |
-| 76 | stone_button | [No] |  |
-| 77 | snow_layer | [No] |  |
-| 78 | ice | [Yes] |  |
-| 79 | snow | [Yes] |  |
-| 80 | cactus | [No] |  |
-| 81 | clay | [Yes] |  |
-| 82 | reeds | [No] |  |
-| 83 | jukebox | [No] |  |
-| 84 | fence | [Yes] |  |
-| 85 | pumpkin | [No] |  |
-| 86 | netherrack | [Yes] |  |
-| 87 | soul_sand | [Yes] |  |
-| 88 | glowstone | [Yes] |  |
-| 89 | portal | [No] |  |
-| 90 | lit_pumpkin | [No] |  |
-| 91 | cake | [No] |  |
-| 92 | unpowered_repeater | [No] |  |
-| 93 | powered_repeater | [No] |  |
-| 94 | stained_glass | [Yes] |  |
-| 95 | trapdoor | [Yes] | Trapdoor design |
-| 96 | monster_egg | [Yes] |  |
-| 97 | stonebrick | [Yes] |  |
-| 98 | brown_mushroom_block | [Yes] |  |
-| 99 | red_mushroom_block | [Yes] |  |
-| 100 | iron_bars | [Yes] |  |
-| 101 | glass_pane | [Yes] |  |
-| 102 | melon_block | [No] |  |
-| 103 | pumpkin_stem | [No] |  |
-| 104 | melon_stem | [No] |  |
-| 105 | vine | [No] |  |
-| 106 | fence_gate | [Yes] | No redstone power design |
-| 107 | brick_stairs | [Yes] |  |
-| 108 | stone_brick_stairs | [Yes] |  |
-| 109 | mycelium | [Yes] |  |
-| 110 | waterlily | [No] |  |
-| 111 | nether_brick | [Yes] |  |
-| 112 | nether_brick_fence | [Yes] |  |
-| 113 | nether_brick_stairs | [Yes] |  |
-| 114 | nether_wart | [No] |  |
-| 115 | enchanting_table | [No] |  |
-| 116 | brewing_stand | [No] |  |
-| 117 | cauldron | [Yes] |  |
-| 118 | end_portal | [No] |  |
-| 119 | end_portal_frame | [No] |  |
-| 120 | end_stone | [Yes] |  |
+| 0 | stone | ![Yes] |  |
+| 1 | grass | ![No] |  |
+| 2 | dirt | ![Yes] |  |
+| 3 | cobblestone | ![Yes] |  |
+| 4 | planks | ![Yes] |  |
+| 5 | sapling | ![No] |  |
+| 6 | bedrock | ![No] |  |
+| 7 | flowing_water | ![No] |  |
+| 8 | water | ![No] |  |
+| 9 | flowing_lava | ![No] |  |
+| 10 | lava | ![No] |  |
+| 11 | sand | ![Yes] |  |
+| 12 | gravel | ![Yes] |  |
+| 13 | gold_ore | ![Yes] |  |
+| 14 | iron_ore | ![Yes] |  |
+| 15 | coal_ore | ![Yes] |  |
+| 16 | log | ![Yes] |  |
+| 17 | leaves | ![No] |  |
+| 18 | sponge | ![Yes] |  |
+| 19 | glass | ![Yes] |  |
+| 20 | lapis_ore | ![Yes] |  |
+| 21 | lapis_block | ![Yes] |  |
+| 22 | dispenser | ![No] |  |
+| 23 | sandstone | ![Yes] |  |
+| 24 | noteblock | ![No] |  |
+| 25 | bed | ![No] |  |
+| 26 | golden_rail | ![Yes] | Rail design |
+| 27 | detector_rail | ![Yes] | Rail design |
+| 28 | sticky_piston | ![Yes] | Piston design |
+| 29 | web | ![No] |  |
+| 30 | tallgrass | ![No] |  |
+| 31 | deadbush | ![No] |  |
+| 32 | piston | ![Yes] | Piston design |
+| 33 | piston_head | ![No] |  |
+| 34 | wool | ![Yes] |  |
+| 35 | piston_extension | ![No] |  |
+| 36 | yellow_flower | ![No] |  |
+| 37 | red_flower | ![No] |  |
+| 38 | brown_mushroom | ![No] |  |
+| 39 | red_mushroom | ![No] |  |
+| 40 | gold_block | ![Yes] |  |
+| 41 | iron_block | ![Yes] |  |
+| 42 | double_stone_slab | ![Yes] |  |
+| 43 | stone_slab | ![Yes] |  |
+| 44 | brick_block | ![Yes] |  |
+| 45 | tnt | ![Yes] | No redstone power design |
+| 46 | bookshelf | ![Yes] |  |
+| 47 | mossy_cobblestone | ![Yes] |  |
+| 48 | obsidian | ![No] |  |
+| 49 | torch | ![No] |  |
+| 50 | fire | ![No] |  |
+| 51 | mob_spawner | ![No] |  |
+| 52 | wooden_stairs | ![Yes] |  |
+| 53 | chest | ![No] |  |
+| 54 | redstone_wire | ![No] |  |
+| 55 | diamond_ore | ![Yes] |  |
+| 56 | diamond_block | ![Yes] |  |
+| 57 | crafting_table | ![Yes] |  |
+| 58 | wheat | ![No] |  |
+| 59 | farmland | ![Yes] |  |
+| 60 | furnace | ![Yes] | Furnace design |
+| 61 | lit_furnace | ![Yes] | Furnace design |
+| 62 | standing_sign | ![No] |  |
+| 63 | wooden_door | ![No] |  |
+| 64 | ladder | ![No] |  |
+| 65 | rail | ![Yes] | Rail design |
+| 66 | stone_stairs | ![Yes] |  |
+| 67 | wall_sign | ![No] |  |
+| 68 | lever | ![No] |  |
+| 69 | stone_pressure_plate | ![No] |  |
+| 70 | iron_door | ![No] |  |
+| 71 | wooden_pressure_plate | ![No] |  |
+| 72 | redstone_ore | ![?] |  |
+| 73 | lit_redstone_ore | ![Yes] |  |
+| 74 | unlit_redstone_torch | ![No] |  |
+| 75 | redstone_torch | ![No] |  |
+| 76 | stone_button | ![No] |  |
+| 77 | snow_layer | ![No] |  |
+| 78 | ice | ![Yes] |  |
+| 79 | snow | ![Yes] |  |
+| 80 | cactus | ![No] |  |
+| 81 | clay | ![Yes] |  |
+| 82 | reeds | ![No] |  |
+| 83 | jukebox | ![No] |  |
+| 84 | fence | ![Yes] |  |
+| 85 | pumpkin | ![No] |  |
+| 86 | netherrack | ![Yes] |  |
+| 87 | soul_sand | ![Yes] |  |
+| 88 | glowstone | ![Yes] |  |
+| 89 | portal | ![No] |  |
+| 90 | lit_pumpkin | ![No] |  |
+| 91 | cake | ![No] |  |
+| 92 | unpowered_repeater | ![No] |  |
+| 93 | powered_repeater | ![No] |  |
+| 94 | stained_glass | ![Yes] |  |
+| 95 | trapdoor | ![Yes] | Trapdoor design |
+| 96 | monster_egg | ![Yes] |  |
+| 97 | stonebrick | ![Yes] |  |
+| 98 | brown_mushroom_block | ![Yes] |  |
+| 99 | red_mushroom_block | ![Yes] |  |
+| 100 | iron_bars | ![Yes] |  |
+| 101 | glass_pane | ![Yes] |  |
+| 102 | melon_block | ![No] |  |
+| 103 | pumpkin_stem | ![No] |  |
+| 104 | melon_stem | ![No] |  |
+| 105 | vine | ![No] |  |
+| 106 | fence_gate | ![Yes] | No redstone power design |
+| 107 | brick_stairs | ![Yes] |  |
+| 108 | stone_brick_stairs | ![Yes] |  |
+| 109 | mycelium | ![Yes] |  |
+| 110 | waterlily | ![No] |  |
+| 111 | nether_brick | ![Yes] |  |
+| 112 | nether_brick_fence | ![Yes] |  |
+| 113 | nether_brick_stairs | ![Yes] |  |
+| 114 | nether_wart | ![No] |  |
+| 115 | enchanting_table | ![No] |  |
+| 116 | brewing_stand | ![No] |  |
+| 117 | cauldron | ![Yes] |  |
+| 118 | end_portal | ![No] |  |
+| 119 | end_portal_frame | ![No] |  |
+| 120 | end_stone | ![Yes] |  |
 </details>
 
 ### Beta 1.8 Prerelease 1-1
@@ -680,140 +681,140 @@
 
 | Numeric ID | Block ID | Does it work? |
 |---|---|---|
-| 0 | air | [Yes] |
-| 1 | stone | [Yes] |
-| 2 | grass | [Yes] |
-| 3 | dirt | [Yes] |
-| 4 | cobblestone | [Yes] |
-| 5 | planks | [Yes] |
-| 6 | sapling | [Yes] |
-| 7 | bedrock | [Yes] |
-| 8 | flowing_water | [Yes] |
-| 9 | water | [Yes] |
-| 10 | flowing_lava | [Yes] |
-| 11 | lava | [Yes] |
-| 12 | sand | [Yes] |
-| 13 | gravel | [Yes] |
-| 14 | gold_ore | [Yes] |
-| 15 | iron_ore | [Yes] |
-| 16 | coal_ore | [Yes] |
-| 17 | log | [Yes] |
-| 18 | leaves | [Yes] |
-| 19 | sponge | [Yes] |
-| 20 | glass | [Yes] |
-| 21 | lapis_ore | [Yes] |
-| 22 | lapis_block | [Yes] |
-| 23 | dispenser | [Yes] |
-| 24 | sandstone | [Yes] |
-| 25 | noteblock | [Yes] |
-| 26 | bed | [Yes] |
-| 27 | golden_rail | [Yes] |
-| 28 | detector_rail | [Yes] |
-| 29 | sticky_piston | [Yes] |
-| 30 | web | [Yes] |
-| 31 | tallgrass | [Yes] |
-| 32 | deadbush | [Yes] |
-| 33 | piston | [Yes] |
-| 34 | piston_head | [Yes] |
-| 35 | wool | [Yes] |
-| 36 | piston_extension | [Yes] |
-| 37 | yellow_flower | [Yes] |
-| 38 | red_flower | [Yes] |
-| 39 | brown_mushroom | [Yes] |
-| 40 | red_mushroom | [Yes] |
-| 41 | gold_block | [Yes] |
-| 42 | iron_block | [Yes] |
-| 43 | double_stone_slab | [Yes] |
-| 44 | stone_slab | [Yes] |
-| 45 | brick_block | [Yes] |
-| 46 | tnt | [Yes] |
-| 47 | bookshelf | [Yes] |
-| 48 | mossy_cobblestone | [Yes] |
-| 49 | obsidian | [Yes] |
-| 50 | torch | [Yes] |
-| 51 | fire | [Yes] |
-| 52 | mob_spawner | [Yes] |
-| 53 | wooden_stairs | [Yes] |
-| 54 | chest | [Yes] |
-| 55 | redstone_wire | [Yes] |
-| 56 | diamond_ore | [Yes] |
-| 57 | diamond_block | [Yes] |
-| 58 | crafting_table | [Yes] |
-| 59 | wheat | [Yes] |
-| 60 | farmland | [Yes] |
-| 61 | furnace | [Yes] |
-| 62 | lit_furnace | [Yes] |
-| 63 | standing_sign | [Yes] |
-| 64 | wooden_door | [Yes] |
-| 65 | ladder | [Yes] |
-| 66 | rail | [Yes] |
-| 67 | stone_stairs | [Yes] |
-| 68 | wall_sign | [Yes] |
-| 69 | lever | [Yes] |
-| 70 | stone_pressure_plate | [Yes] |
-| 71 | iron_door | [Yes] |
-| 72 | wooden_pressure_plate | [Yes] |
-| 73 | redstone_ore | [Yes] |
-| 74 | lit_redstone_ore | [Yes] |
-| 75 | unlit_redstone_torch | [Yes] |
-| 76 | redstone_torch | [Yes] |
-| 77 | stone_button | [Yes] |
-| 78 | snow_layer | [Yes] |
-| 79 | ice | [Yes] |
-| 80 | snow | [Yes] |
-| 81 | cactus | [Yes] |
-| 82 | clay | [Yes] |
-| 83 | reeds | [Yes] |
-| 84 | jukebox | [Yes] |
-| 85 | fence | [Yes] |
-| 86 | pumpkin | [Yes] |
-| 87 | netherrack | [Yes] |
-| 88 | soul_sand | [Yes] |
-| 89 | glowstone | [Yes] |
-| 90 | portal | [Yes] |
-| 91 | lit_pumpkin | [Yes] |
-| 92 | cake | [Yes] |
-| 93 | unpowered_repeater | [Yes] |
-| 94 | powered_repeater | [Yes] |
-| 95 | stained_glass | [Yes] |
-| 96 | trapdoor | [Yes] |
-| 97 | monster_egg | [Yes] |
-| 98 | stonebrick | [Yes] |
-| 99 | brown_mushroom_block | [Yes] |
-| 100 | red_mushroom_block | [Yes] |
-| 101 | iron_bars | [Yes] |
-| 102 | glass_pane | [Yes] |
-| 103 | melon_block | [Yes] |
-| 104 | pumpkin_stem | [Yes] |
-| 105 | melon_stem | [Yes] |
-| 106 | vine | [Yes] |
-| 107 | fence_gate | [Yes] |
-| 108 | brick_stairs | [Yes] |
-| 109 | stone_brick_stairs | [Yes] |
-| 110 | mycelium | [Yes] |
-| 111 | waterlily | [Yes] |
-| 112 | nether_brick | [Yes] |
-| 113 | nether_brick_fence | [Yes] |
-| 114 | nether_brick_stairs | [Yes] |
-| 115 | nether_wart | [Yes] |
-| 116 | enchanting_table | [Yes] |
-| 117 | brewing_stand | [Yes] |
-| 118 | cauldron | [Yes] |
-| 119 | end_portal | [Yes] |
-| 120 | end_portal_frame | [Yes] |
-| 121 | end_stone | [Yes] |
-| 122 | dragon_egg | [Yes] |
-| 123 | redstone_lamp | [Yes] |
-| 124 | lit_redstone_lamp | [Yes] |
-| 125 | double_wooden_slab | [Yes] |
-| 126 | wooden_slab | [Yes] |
-| 127 | cocoa | [Yes] |
-| 128 | sandstone_stairs | [Yes] |
-| 129 | emerald_ore | [Yes] |
-| 130 | ender_chest | [Yes] |
-| 131 | tripwire_hook | [No] |
-| 132 | tripwire | [Yes] |
-| 133 | emerald_block | [Yes] |
+| 0 | air | ![Yes] |
+| 1 | stone | ![Yes] |
+| 2 | grass | ![Yes] |
+| 3 | dirt | ![Yes] |
+| 4 | cobblestone | ![Yes] |
+| 5 | planks | ![Yes] |
+| 6 | sapling | ![Yes] |
+| 7 | bedrock | ![Yes] |
+| 8 | flowing_water | ![Yes] |
+| 9 | water | ![Yes] |
+| 10 | flowing_lava | ![Yes] |
+| 11 | lava | ![Yes] |
+| 12 | sand | ![Yes] |
+| 13 | gravel | ![Yes] |
+| 14 | gold_ore | ![Yes] |
+| 15 | iron_ore | ![Yes] |
+| 16 | coal_ore | ![Yes] |
+| 17 | log | ![Yes] |
+| 18 | leaves | ![Yes] |
+| 19 | sponge | ![Yes] |
+| 20 | glass | ![Yes] |
+| 21 | lapis_ore | ![Yes] |
+| 22 | lapis_block | ![Yes] |
+| 23 | dispenser | ![Yes] |
+| 24 | sandstone | ![Yes] |
+| 25 | noteblock | ![Yes] |
+| 26 | bed | ![Yes] |
+| 27 | golden_rail | ![Yes] |
+| 28 | detector_rail | ![Yes] |
+| 29 | sticky_piston | ![Yes] |
+| 30 | web | ![Yes] |
+| 31 | tallgrass | ![Yes] |
+| 32 | deadbush | ![Yes] |
+| 33 | piston | ![Yes] |
+| 34 | piston_head | ![Yes] |
+| 35 | wool | ![Yes] |
+| 36 | piston_extension | ![Yes] |
+| 37 | yellow_flower | ![Yes] |
+| 38 | red_flower | ![Yes] |
+| 39 | brown_mushroom | ![Yes] |
+| 40 | red_mushroom | ![Yes] |
+| 41 | gold_block | ![Yes] |
+| 42 | iron_block | ![Yes] |
+| 43 | double_stone_slab | ![Yes] |
+| 44 | stone_slab | ![Yes] |
+| 45 | brick_block | ![Yes] |
+| 46 | tnt | ![Yes] |
+| 47 | bookshelf | ![Yes] |
+| 48 | mossy_cobblestone | ![Yes] |
+| 49 | obsidian | ![Yes] |
+| 50 | torch | ![Yes] |
+| 51 | fire | ![Yes] |
+| 52 | mob_spawner | ![Yes] |
+| 53 | wooden_stairs | ![Yes] |
+| 54 | chest | ![Yes] |
+| 55 | redstone_wire | ![Yes] |
+| 56 | diamond_ore | ![Yes] |
+| 57 | diamond_block | ![Yes] |
+| 58 | crafting_table | ![Yes] |
+| 59 | wheat | ![Yes] |
+| 60 | farmland | ![Yes] |
+| 61 | furnace | ![Yes] |
+| 62 | lit_furnace | ![Yes] |
+| 63 | standing_sign | ![Yes] |
+| 64 | wooden_door | ![Yes] |
+| 65 | ladder | ![Yes] |
+| 66 | rail | ![Yes] |
+| 67 | stone_stairs | ![Yes] |
+| 68 | wall_sign | ![Yes] |
+| 69 | lever | ![Yes] |
+| 70 | stone_pressure_plate | ![Yes] |
+| 71 | iron_door | ![Yes] |
+| 72 | wooden_pressure_plate | ![Yes] |
+| 73 | redstone_ore | ![Yes] |
+| 74 | lit_redstone_ore | ![Yes] |
+| 75 | unlit_redstone_torch | ![Yes] |
+| 76 | redstone_torch | ![Yes] |
+| 77 | stone_button | ![Yes] |
+| 78 | snow_layer | ![Yes] |
+| 79 | ice | ![Yes] |
+| 80 | snow | ![Yes] |
+| 81 | cactus | ![Yes] |
+| 82 | clay | ![Yes] |
+| 83 | reeds | ![Yes] |
+| 84 | jukebox | ![Yes] |
+| 85 | fence | ![Yes] |
+| 86 | pumpkin | ![Yes] |
+| 87 | netherrack | ![Yes] |
+| 88 | soul_sand | ![Yes] |
+| 89 | glowstone | ![Yes] |
+| 90 | portal | ![Yes] |
+| 91 | lit_pumpkin | ![Yes] |
+| 92 | cake | ![Yes] |
+| 93 | unpowered_repeater | ![Yes] |
+| 94 | powered_repeater | ![Yes] |
+| 95 | stained_glass | ![Yes] |
+| 96 | trapdoor | ![Yes] |
+| 97 | monster_egg | ![Yes] |
+| 98 | stonebrick | ![Yes] |
+| 99 | brown_mushroom_block | ![Yes] |
+| 100 | red_mushroom_block | ![Yes] |
+| 101 | iron_bars | ![Yes] |
+| 102 | glass_pane | ![Yes] |
+| 103 | melon_block | ![Yes] |
+| 104 | pumpkin_stem | ![Yes] |
+| 105 | melon_stem | ![Yes] |
+| 106 | vine | ![Yes] |
+| 107 | fence_gate | ![Yes] |
+| 108 | brick_stairs | ![Yes] |
+| 109 | stone_brick_stairs | ![Yes] |
+| 110 | mycelium | ![Yes] |
+| 111 | waterlily | ![Yes] |
+| 112 | nether_brick | ![Yes] |
+| 113 | nether_brick_fence | ![Yes] |
+| 114 | nether_brick_stairs | ![Yes] |
+| 115 | nether_wart | ![Yes] |
+| 116 | enchanting_table | ![Yes] |
+| 117 | brewing_stand | ![Yes] |
+| 118 | cauldron | ![Yes] |
+| 119 | end_portal | ![Yes] |
+| 120 | end_portal_frame | ![Yes] |
+| 121 | end_stone | ![Yes] |
+| 122 | dragon_egg | ![Yes] |
+| 123 | redstone_lamp | ![Yes] |
+| 124 | lit_redstone_lamp | ![Yes] |
+| 125 | double_wooden_slab | ![Yes] |
+| 126 | wooden_slab | ![Yes] |
+| 127 | cocoa | ![Yes] |
+| 128 | sandstone_stairs | ![Yes] |
+| 129 | emerald_ore | ![Yes] |
+| 130 | ender_chest | ![Yes] |
+| 131 | tripwire_hook | ![No] |
+| 132 | tripwire | ![Yes] |
+| 133 | emerald_block | ![Yes] |
 
 </details>
 ### 12w24a
