@@ -53,7 +53,7 @@ jobs:
             COLOR="orange"
           else 
             MSG="$((DIFF/2628000))mo ago"
-            COLOR="orange"
+            COLOR="red"
           fi
       
           mkdir -p badge
