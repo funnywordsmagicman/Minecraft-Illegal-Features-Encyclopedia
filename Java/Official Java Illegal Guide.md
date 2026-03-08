@@ -5,6 +5,8 @@
 <img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px">
 </div>
 
+<h1>Test</h1>
+
 ## Key Words
 
 **Upgrading:** Upgrading from X.XX.XX to Y.YY.YY to obtain a certain illegal occurence
