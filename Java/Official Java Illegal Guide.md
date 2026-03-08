@@ -6,8 +6,10 @@
 </div>
 
 <details>
-<summary></summary>
+ <summary></summary>
+  
 # Illegal Features Guide
+
 </details>
 
 ## Key Words
