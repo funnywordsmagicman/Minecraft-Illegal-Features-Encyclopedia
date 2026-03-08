@@ -38,9 +38,9 @@ jobs:
           mkdir -p badge
           echo "{
             \"schemaVersion\": 1,
-            \"label\": \"test123\",
+            \"label\": \"Last Wiki Update\",
             \"message\": \"$MSG\",
-            \"color\": \"blue\"
+            \"color\": \"green\"
           }" > badge/wiki-last-edit.json
 
       - name: Commit and push badge
