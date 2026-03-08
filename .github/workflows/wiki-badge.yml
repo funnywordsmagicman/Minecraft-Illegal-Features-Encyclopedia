@@ -40,7 +40,7 @@ jobs:
             \"schemaVersion\": 1,
             \"label\": \"Last Wiki Update\",
             \"message\": \"$MSG\",
-            \"color\": \"green\"
+            \"color\": \"brightgreen\"
           }" > badge/wiki-last-edit.json
 
       - name: Commit and push badge
