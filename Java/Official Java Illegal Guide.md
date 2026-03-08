@@ -8,7 +8,7 @@
 <details>
  <summary></summary>
   
-# Illegal Features Guide
+<!-- # Illegal Features Guide -->
 
 </details>
 
