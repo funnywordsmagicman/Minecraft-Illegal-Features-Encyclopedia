@@ -5,18 +5,19 @@
 <img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px">
 </div>
 
-<details style="list-style-type: 'hand';">
+<details>
  <summary></summary>
+ 
 # Illegal Features Guide
 
 </details>
 
 ## Key Words
 
-**Upgrading:** Upgrading from X.XX.XX to Y.YY.YY to obtain a certain illegal occurence
+**Upgrading:** Upgrading from X.XX.XX to Y.YY.YY to obtain or observe a certain illegal feature
 <br>
 
-**Downgrading:** [Downgrading] from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
+**Downgrading:** [Downgrading] from Y.YY.YY to X.XX.XX to obtain or observe a certain illegal feature
 <br>
 
 **EDU:** [MinecraftEDU] is a modified fork of Minecraft Java Edition, and is an educational form of Minecraft (Not to be confused with [Minecraft Education]
@@ -25,9 +26,9 @@
 **Mod:** Requires a Mod from ["Mods & Extra Files"] that can let you either play the version or obtain certain unobtainables
 <br>
 
-**[Understacked Items]**: Understacked items, also known as zero stack items, refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> less than or equal to 0. These items behave like normal items in the sense that they can be taken out of and put into containers as well as dropped, but will "absorb" any items of the same type if they are stacked. Understacked items can be used as an effective form of duplication, since placing one by right clicking will create a new, non-understacked item of the same type. This can be repeated multiple times, though it will subtract 1 from the understack's count each time. Once you reload the world (if it's in your inventory) or any container a understacked item is in, its count will overflow to 128 (as long as its count was lower than -64).
+**[Understacked Items]**: Understacked items, also known as zero stack items, refer to stacks of items that have a count less than or equal to 0. These items behave like normal items in the sense that they can be taken out of and put into containers as well as dropped, but will "absorb" any items of the same type if they are stacked. Understacked items can be used as an effective form of duplication, since placing one by right clicking will create a new, non-understacked item of the same type. This can be repeated multiple times, though it will subtract 1 from the understack's count each time. Once you reload the world (if it's in your inventory) or any container a understacked item is in, its count will overflow to 128 (as long as its count was lower than -64).
 
-**[Overstacked Items]**: Overstacked items refer to stacks of items that have a <span title="NBT tag referring to the number of items in a stack">count</span> greater than their usual stack size. In the event that a player tries to move an overstacked item out of a container, they will only take the item's usual stack size and thus turn the overstacked items into a normal item stack. In some versions of Minecraft Java Edition, overstacked items could be naturally found, such as Indev 20100124-3, Indev 2010128-2, and Infdev 20100316.
+**[Overstacked Items]**: Overstacked items refer to stacks of items that have a count greater than their usual stack size. In the event that a player tries to move an overstacked item out of a container, they will only take the item's usual stack size and thus turn the overstacked items into a normal item stack. In some versions of Minecraft Java Edition, overstacked items could be naturally found, such as Indev 20100124-3, Indev 2010128-2, and Infdev 20100316.
 
 **[level.dat Regeneration]**: level.dat Regeneration refers to the deletion or relocation and then forced recreation of the original level.dat file of a Minecraft world in order to regenerate debug chests or other structures that only generate on the creation of a level.dat file.
 
@@ -108,7 +109,7 @@
     - [Coal Ore]
     - [Obsidian]
     - [Leaves]
-- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. <sup>[More...](https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31)</sup>
+- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. <sup>[^1]</sup>
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
 
@@ -2161,3 +2162,6 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [The Farlands]: https://minecraft.fandom.com/wiki/Far_Lands
 [Signs]: https://minecraft.fandom.com/wiki/Sign
 [Half Door]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Door_(Block)
+
+<!-- Links 2 -->
+[^1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#:~:text=Generic%20Understacking%20Methods-,Destroyed%20Container%20GUI%20Reference,-From%20Indev%200.31
