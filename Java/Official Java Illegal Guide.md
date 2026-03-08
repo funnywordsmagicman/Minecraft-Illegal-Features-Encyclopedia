@@ -47,7 +47,7 @@
   - ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
 - ![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
   - ![World State](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
-    -![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
+  - ![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
 - ![Duplication](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
   - ![Item Dupe](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
   - ![Block Dupe](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
