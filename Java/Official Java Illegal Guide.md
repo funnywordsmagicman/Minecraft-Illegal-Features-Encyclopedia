@@ -1,4 +1,5 @@
-![235px-Main_Page_Logo_(2021_Update)](https://github.com/user-attachments/assets/ffcf942f-b833-4504-88b4-9e9aab5e049f)
+<img src="https://github.com/user-attachments/assets/ffcf942f-b833-4504-88b4-9e9aab5e049f">
+
 ![Status](https://img.shields.io/badge/Last%20Updated-3%2F7%2F2026-green)
 
 
