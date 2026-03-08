@@ -2,12 +2,6 @@
 
 ![test126](https://filejson.theparanoidsheep.workers.dev)
 
-![test123](https://mcdfupdate.theparanoidsheep.workers.dev)
-
-![test12](https://mcdfupdate.theparanoidsheep.workers.dev)
-
-![test12](https://mcdfupdate.theparanoidsheep.workers.dev)
-
 ![test124](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/refs/heads/main/badge/wiki-last-edit.json&style=plastic&logo=mcdf&t=1143)
 
 <div align=center>
