@@ -269,7 +269,7 @@
 > Backspacing too many times after pasting control characters can crash the game.
 - Petrified Oak Slabs added.
 - World names can contain the section symbol § and have formatted names.
-- Whenever a player spawns, they will be given a [debug inventory](https://mcdf.wiki.gg/wiki/Java_Edition:Beta_1.3-1_Debug_Inventory) consisting of:
+- Whenever a player spawns, they will be given a [Debug Inventory] consisting of:
     - 64 torches
     - A pickaxe
     - An axe
@@ -286,32 +286,33 @@
 ### Beta 1.6 Test Build 3
 > [!Note]
 > Level.dat regeneration is required in order to access debug chests in existing worlds.
-- Upon level.dat creation, [debug chests](https://mcdf.wiki.gg/wiki/Java_Edition:Beta_1.6_Test_Build_3_Debug_Chests) would generate at the world spawn.
+- Upon level.dat creation, [debug chests][Debug Chests] would generate at the world spawn.
 - Some notable items in these chests are:
-  - [Half Bed](https://mcdf.wiki.gg/wiki/Java_Edition:Half_Bed_(Block))
-  - [Flowing Water](https://mcdf.wiki.gg/wiki/Java_Edition:Flowing_Water_(Item))
-  - [Water](https://mcdf.wiki.gg/wiki/Java_Edition:Water_(Item))
-  - [Flowing Lava](https://mcdf.wiki.gg/wiki/Java_Edition:Flowing_Lava_(Item))
-  - [Lava](https://mcdf.wiki.gg/wiki/Java_Edition:Lava_(Item))
-  - [Double Stone Slab](https://mcdf.wiki.gg/wiki/Java_Edition:Double_Stone_Slab_(Item))
-  - [Fire](https://mcdf.wiki.gg/wiki/Java_Edition:Fire_(Item))
-  - [Redstone Wire](https://mcdf.wiki.gg/wiki/Java_Edition:Redstone_Wire_(Item))
-  - [Crops](https://mcdf.wiki.gg/wiki/Java_Edition:Crops_(Item))
-  - [Farmland](https://mcdf.wiki.gg/wiki/Java_Edition:Farmland_(Item))
-  - [Lit Furnace](https://mcdf.wiki.gg/wiki/Java_Edition:Lit_Furnace_(Item))
-  - [Standing Sign](https://mcdf.wiki.gg/wiki/Java_Edition:Standing_Sign_(Item))
-  - Wall Sign
-  - Half Wooden Door
-  - Half Iron Door
-  - Lit Redstone Ore
-  - Unlit Redstone Torch
-  - Reeds, Portal
-  - Cake Block
-  - Unpowered Redstone Repeater
-  - Powered Redstone Repeater
-  - Locked Chest
-  - Shrub
-  - Bedrock
+  - [Half Bed]
+  - [Flowing Water]
+  - [Water]
+  - [Flowing Lava]
+  - [Lava]
+  - [Double Stone Slab]
+  - [Fire]
+  - [Redstone Wire]
+  - [Crops]
+  - [Farmland]
+  - [Lit Furnace]
+  - [Standing Sign]
+  - [Wall Sign]
+  - [Half Wooden Door]
+  - [Half Iron Door]
+  - [Lit Redstone Ore]
+  - [Unlit Redstone Torch]
+  - [Reeds]
+  - [Nether Portal]
+  - [Cake Block]
+  - [Unpowered Redstone Repeater]
+  - [Powered Redstone Repeater]
+  - [Locked Chest]
+  - [Shrub]
+  - [Bedrock]
 - Melting Ice in the nether won't dissolve the water making it possible to have water in the nether
 - Entering a Nether Portal while in the crafting grid will cause all items in the crafting grid to get thrown out and become 0 stacked items, 0 stack items can be subtracted to become negative stack items by Q-ing them and can be overflowed to become overstacked items
 - Update Suppresion now works by using budding redstone updates, you can find the world download in the "Mods & Extra Files" Folder for the Update Suppresor Model for this version
@@ -2170,6 +2171,31 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Block Replacement Bypass]: https://mcdf.wiki.gg/wiki/Java_Edition:Block_Replacement_Bypass
 [Nether Portal]: https://minecraft.fandom.com/wiki/Nether_Portal_(block)
 [1-tick]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Destroyed_Container_GUI_Reference:~:text=at%20succeeding%20the-,1%20tick,-window.%20If%20the
+[Debug Inventory]: https://mcdf.wiki.gg/wiki/Java_Edition:Beta_1.3-1_Debug_Inventory
+[Debug Chests]: https://mcdf.wiki.gg/wiki/Java_Edition:Beta_1.6_Test_Build_3_Debug_Chests
+[Half Bed]: https://mcdf.wiki.gg/wiki/Java_Edition:Half_Bed_(Block)
+[Flowing Water]: https://mcdf.wiki.gg/wiki/Java_Edition:Flowing_Water_(Item)
+[Water]: https://mcdf.wiki.gg/wiki/Java_Edition:Water_(Item)
+[Flowing Lava]: https://mcdf.wiki.gg/wiki/Java_Edition:Flowing_Lava_(Item)
+[Lava]: https://mcdf.wiki.gg/wiki/Java_Edition:Lava_(Item)
+[Double Stone Slab]: https://mcdf.wiki.gg/wiki/Java_Edition:Double_Stone_Slab_(Item)
+[Fire]: https://mcdf.wiki.gg/wiki/Java_Edition:Fire_(Item)
+[Redstone Wire]: https://mcdf.wiki.gg/wiki/Java_Edition:Redstone_Wire_(Item)
+[Crops]: https://mcdf.wiki.gg/wiki/Java_Edition:Crops_(Item)
+[Farmland]: https://mcdf.wiki.gg/wiki/Java_Edition:Farmland_(Item)
+[Lit Furnace]: https://mcdf.wiki.gg/wiki/Java_Edition:Lit_Furnace_(Item)
+[Standing Sign]: https://mcdf.wiki.gg/wiki/Java_Edition:Standing_Sign_(Item)
+[Wall Sign]: https://mcdf.wiki.gg/wiki/Java_Edition:Wall_Sign_(Item)
+[Half Wooden Door]: https://mcdf.wiki.gg/wiki/Java_Edition:Wooden_Door_(Block_Item)
+[Half Iron Door]: https://mcdf.wiki.gg/wiki/Java_Edition:Iron_Door_(Block_Item)
+[Lit Redstone Ore]: https://mcdf.wiki.gg/wiki/Java_Edition:Lit_Redstone_Ore_(Item)
+[Unlit Redstone Torch]: https://mcdf.wiki.gg/wiki/Java_Edition:Redstone_Ore_(Item)
+[Reeds]: https://mcdf.wiki.gg/wiki/Java_Edition:Reeds_(Item)
+[Cake Block]: https://mcdf.wiki.gg/wiki/Java_Edition:Cake_(Block_Item)
+[Unpowered Redstone Repeater]: https://mcdf.wiki.gg/wiki/Java_Edition:Unpowered_Redstone_Repeater_(Item)
+[Powered Redstone Repeater]: https://mcdf.wiki.gg/wiki/Java_Edition:Powered_Redstone_Repeater_(Item)
+[Locked Chest]: https://mcdf.wiki.gg/wiki/Java_Edition:Locked_Chest
+[Shrub]: https://mcdf.wiki.gg/wiki/Java_Edition:Shrub
 
 <!-- Links 2 -->
 [1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Destroyed_Container_GUI_Reference
@@ -2200,6 +2226,8 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [26]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Egg_Stack
 [27]: https://mcdf.wiki.gg/wiki/Java_Edition:Weaponless_Mob#Old_Versions
 [28]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/Fast_Travel_Methods#Boat_&_Nether_Portal
+
+
 
 
 
