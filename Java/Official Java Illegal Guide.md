@@ -2075,47 +2075,47 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 | :--:|
 | *A timeline of snapshots from 2011-2026.*
 
-[Item]: https://img.shields.io/badge/-Item-287326
-[Item NBT]: https://img.shields.io/badge/Item%20NBT-2FCC66
-[Item Count]: https://img.shields.io/badge/-Item%20Count-BB1BA1
-[Name]: https://img.shields.io/badge/Name-cc2f59
-[Equipment]: https://img.shields.io/badge/Equipment-cca12f
-[Enchantment]: https://img.shields.io/badge/Enchantment-922fcc
-[Repair Cost]: https://img.shields.io/badge/Repair%20Cost-cc632f
-[Durability]: https://img.shields.io/badge/Durability-cc822f
-[Entity]: https://img.shields.io/badge/-Entity-502673
-[Trade]: https://img.shields.io/badge/Trade-734D26
-[Mob AI]: https://img.shields.io/badge/Mob%20AI-401c15
-[Entity Data]: https://img.shields.io/badge/Entity%20Data-a8838c
-[Block]: https://img.shields.io/badge/-Block-134386
-[Block Configuration]: https://img.shields.io/badge/Block%20Configuration-584bea
-[Block NBT]: https://img.shields.io/badge/Block%20NBT-2FCC66
-[Terrain]: https://img.shields.io/badge/-Terrain-736226
-[Chunk Loading]: https://img.shields.io/badge/Chunk%20Loading-d4a6f5
-[Biome]: https://img.shields.io/badge/-Biome-732637
-[Structure]: https://img.shields.io/badge/Structure-CCA12F
-[Player Data]: https://img.shields.io/badge/-Player%20Data-267359
-[Gamemode]: https://img.shields.io/badge/Gamemode-7eea4b
-[Effect]: https://img.shields.io/badge/Effect-865613
-[File]: https://img.shields.io/badge/File-4D4D4D
-[World State]: https://img.shields.io/badge/-World%20State-861356
-[Cheats]: https://img.shields.io/badge/Cheats-ea4b7e
-[Duplication]: https://img.shields.io/badge/Duplication-220E08
-[Item Dupe]: https://img.shields.io/badge/-Item%20Dupe-0D8CA5
-[Block Dupe]: https://img.shields.io/badge/-Block%20Dupe-5E5E5E
-[Entity Dupe]: https://img.shields.io/badge/Entity%20Dupe-522FCC
-[Fast Travel]: https://img.shields.io/badge/Fast%20Travel-A12FCC
-[Technical]: https://img.shields.io/badge/Technical-2FCC72
-[Redstone Behavior]: https://img.shields.io/badge/Redstone%20Behavior-b92316
-[Command]: https://img.shields.io/badge/Command-6a3095
-[Packet]: https://img.shields.io/badge/Packet-2e1540
-[Physics]: https://img.shields.io/badge/Physics-7effda
-[Corruption]: https://img.shields.io/badge/Corruption-feaa37
-[Coordinate]: https://img.shields.io/badge/Coordinate-755250
-[Lighting]: https://img.shields.io/badge/Lighting-e2f4a7
-[Sound]: https://img.shields.io/badge/Sound-6e789f
-[Rendering]: https://img.shields.io/badge/Rendering-587550
-[Input]: https://img.shields.io/badge/Input-756650
-[Networking]: https://img.shields.io/badge/Networking-a6f5d4
-[UI]: https://img.shields.io/badge/UI-505d75
-[Dangerous]: https://img.shields.io/badge/Dangerous-6a2822
+[Item]: https://img.shields.io/badge/-Item-287326?style=plastic
+[Item NBT]: https://img.shields.io/badge/Item%20NBT-2FCC66?style=plastic
+[Item Count]: https://img.shields.io/badge/-Item%20Count-BB1BA1?style=plastic
+[Name]: https://img.shields.io/badge/Name-cc2f59?style=plastic
+[Equipment]: https://img.shields.io/badge/Equipment-cca12f?style=plastic
+[Enchantment]: https://img.shields.io/badge/Enchantment-922fcc?style=plastic
+[Repair Cost]: https://img.shields.io/badge/Repair%20Cost-cc632f?style=plastic
+[Durability]: https://img.shields.io/badge/Durability-cc822f?style=plastic
+[Entity]: https://img.shields.io/badge/-Entity-502673?style=plastic
+[Trade]: https://img.shields.io/badge/Trade-734D26?style=plastic
+[Mob AI]: https://img.shields.io/badge/Mob%20AI-401c15?style=plastic
+[Entity Data]: https://img.shields.io/badge/Entity%20Data-a8838c?style=plastic
+[Block]: https://img.shields.io/badge/-Block-134386?style=plastic
+[Block Configuration]: https://img.shields.io/badge/Block%20Configuration-584bea?style=plastic
+[Block NBT]: https://img.shields.io/badge/Block%20NBT-2FCC66?style=plastic
+[Terrain]: https://img.shields.io/badge/-Terrain-736226?style=plastic
+[Chunk Loading]: https://img.shields.io/badge/Chunk%20Loading-d4a6f5?style=plastic
+[Biome]: https://img.shields.io/badge/-Biome-732637?style=plastic
+[Structure]: https://img.shields.io/badge/Structure-CCA12F?style=plastic
+[Player Data]: https://img.shields.io/badge/-Player%20Data-267359?style=plastic
+[Gamemode]: https://img.shields.io/badge/Gamemode-7eea4b?style=plastic
+[Effect]: https://img.shields.io/badge/Effect-865613?style=plastic
+[File]: https://img.shields.io/badge/File-4D4D4D?style=plastic
+[World State]: https://img.shields.io/badge/-World%20State-861356?style=plastic
+[Cheats]: https://img.shields.io/badge/Cheats-ea4b7e?style=plastic
+[Duplication]: https://img.shields.io/badge/Duplication-220E08?style=plastic
+[Item Dupe]: https://img.shields.io/badge/-Item%20Dupe-0D8CA5?style=plastic
+[Block Dupe]: https://img.shields.io/badge/-Block%20Dupe-5E5E5E?style=plastic
+[Entity Dupe]: https://img.shields.io/badge/Entity%20Dupe-522FCC?style=plastic
+[Fast Travel]: https://img.shields.io/badge/Fast%20Travel-A12FCC?style=plastic
+[Technical]: https://img.shields.io/badge/Technical-2FCC72?style=plastic
+[Redstone Behavior]: https://img.shields.io/badge/Redstone%20Behavior-b92316?style=plastic
+[Command]: https://img.shields.io/badge/Command-6a3095?style=plastic
+[Packet]: https://img.shields.io/badge/Packet-2e1540?style=plastic
+[Physics]: https://img.shields.io/badge/Physics-7effda?style=plastic
+[Corruption]: https://img.shields.io/badge/Corruption-feaa37?style=plastic
+[Coordinate]: https://img.shields.io/badge/Coordinate-755250?style=plastic
+[Lighting]: https://img.shields.io/badge/Lighting-e2f4a7?style=plastic
+[Sound]: https://img.shields.io/badge/Sound-6e789f?style=plastic
+[Rendering]: https://img.shields.io/badge/Rendering-587550?style=plastic
+[Input]: https://img.shields.io/badge/Input-756650?style=plastic
+[Networking]: https://img.shields.io/badge/Networking-a6f5d4?style=plastic
+[UI]: https://img.shields.io/badge/UI-505d75?style=plastic
+[Dangerous]: https://img.shields.io/badge/Dangerous-6a2822?style=plastic
