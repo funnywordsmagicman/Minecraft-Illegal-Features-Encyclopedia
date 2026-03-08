@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Get last meaningful edit for file
         run: |
@@ -27,7 +29,7 @@ jobs:
           done
       
           if [ -z "$UPDATED" ]; then
-            UPDATED=$(git log -1 --format=%cI -- "$FILE")
+            UPDATED=$(git log --follow --format=%H -- "$FILE")
           fi
       
           NOW=$(date -u +%s)
