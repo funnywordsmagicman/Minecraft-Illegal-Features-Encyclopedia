@@ -1,8 +1,8 @@
-name: Update Meaningful Edit Badge
+name: Update Test123 Badge JSON
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"  # every 10 minutes
   workflow_dispatch:
 
 jobs:
@@ -10,53 +10,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Fetch latest meaningful edit
         run: |
           FEED="https://mcdf.wiki.gg/api.php?action=query&list=recentchanges&rcprop=title|ids|sizes|flags|user|comment|timestamp|tags&format=json"
-      
+
           JSON=$(curl -s "$FEED")
-      
-          # debug
-          echo "$JSON" | jq '.query.recentchanges[:5]'
-          echo "UPDATED: $UPDATED"
-      
+
+          # Get most recent non-minor, non-bot, non-new edit
           UPDATED=$(echo "$JSON" | jq -r '
             .query.recentchanges[]
             | select((.minor? | not) and (.bot? | not) and (.new? | not))
             | .timestamp
           ' | head -n1)
-      
-          echo "UPDATED: $UPDATED"
-      
+
+          # Fallback to current UTC if no edit found
           if [ -z "$UPDATED" ]; then
             UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           fi
-      
-          NOW=$(date -u +%s)
-          UPDATED_SEC=$(date -d "$UPDATED" +%s)
-          DIFF=$((NOW - UPDATED_SEC))
-      
 
-          if [ $DIFF -lt 3600 ]; then
-            MSG="$((DIFF/60))m ago"
-            COLOR="brightgreen"
-          elif [ $DIFF -lt 86400 ]; then
-            MSG="$((DIFF/3600))h ago"
-            COLOR="green"
-          else
-            MSG="$((DIFF/86400))d ago"
-            COLOR="yellow"
-          fi
-      
+          # Format timestamp nicely for badge
+          MSG=$(date -u -d "$UPDATED" +"%Y-%m-%d %H:%M UTC")
+
+          # Create badge JSON
           mkdir -p badge
           echo "{
             \"schemaVersion\": 1,
-            \"label\": \"Last Major Edit\",
+            \"label\": \"test123\",
             \"message\": \"$MSG\",
-            \"color\": \"$COLOR\"
+            \"color\": \"blue\"
           }" > badge/wiki-last-edit.json
 
       - name: Commit and push badge
@@ -64,6 +48,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add badge/wiki-last-edit.json
-          git commit -m "Update meaningful edit badge" || exit 0
+          git commit -m "Update wiki last edit json" || echo "No changes to commit"
           git push
-          
