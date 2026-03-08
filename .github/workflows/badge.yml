@@ -1,0 +1,54 @@
+name: Update Wiki Badge
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # every 10 minutes
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch feed and generate badge
+        run: |
+          FEED="https://mcdf.wiki.gg/api.php?action=feedrecentchanges&days=7&feedformat=atom&hidebots=1&hidecategorization=1&limit=50&urlversion=1"
+
+          XML=$(curl -s $FEED)
+
+          UPDATED=$(echo "$XML" | grep -oPm1 "(?<=<updated>)[^<]+")
+
+          NOW=$(date -u +%s)
+          UPDATED_SEC=$(date -d "$UPDATED" +%s)
+
+          DIFF=$((NOW - UPDATED_SEC))
+
+          if [ $DIFF -lt 60 ]; then
+            MSG="${DIFF}s ago"
+          elif [ $DIFF -lt 3600 ]; then
+            MSG="$((DIFF/60))m ago"
+          elif [ $DIFF -lt 86400 ]; then
+            MSG="$((DIFF/3600))h ago"
+          else
+            MSG="$((DIFF/86400))d ago"
+          fi
+
+          mkdir -p badge
+
+          echo "{
+            \"schemaVersion\": 1,
+            \"label\": \"Last Wiki Edit\",
+            \"message\": \"$MSG\",
+            \"color\": \"blue\"
+          }" > badge/wiki-last-edit.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add badge/wiki-last-edit.json
+          git commit -m "Update wiki badge" || exit 0
+          git push
