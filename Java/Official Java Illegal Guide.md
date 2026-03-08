@@ -2133,6 +2133,6 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [MinecraftEDU]: https://minecraft.fandom.com/wiki/MinecraftEdu 
 [Minecraft Education]: https://minecraft.fandom.com/wiki/Minecraft_Education
 ["Mods & Extra Files"]: ../Java/Mods%20%26%20Extra%20Files
-[Zero Stack Item]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items
-[Overstacked Item]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items
+[Understacked Items]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items
+[Overstacked Items]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items
 [level.dat Regeneration]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented
