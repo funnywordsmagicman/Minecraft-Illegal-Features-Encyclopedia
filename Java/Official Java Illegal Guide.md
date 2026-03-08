@@ -35,40 +35,19 @@
   - ![Trade](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
   - ![Mob AI](https://img.shields.io/badge/Mob%20AI-401c15) - This refers to illegal or bugged entity behavior.
   - ![Static Badge](https://img.shields.io/badge/Entity%20Data-a8838c) - This refers to illegal or bugged entity NBT data or attributes.
-
-<br>
-
-![Block](https://img.shields.io/badge/-Block-134386) - This refers to illegal blocks.
-
-&nbsp; ![Block Configuration](https://img.shields.io/badge/Block%20Configuration-584bea) - This refers to illegal block configurations.
-
-&nbsp; ![Block NBT](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
-
-<br>
-
-![Terrain](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
-
-&nbsp; ![Chunk Loading](https://img.shields.io/badge/Chunk%20Loading-d4a6f5) - This refers to chunk loading errors or anomalies.
-
-&nbsp; ![Biome](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
-
-&nbsp; ![Structure](https://img.shields.io/badge/Structure-CCA12F) - This refers to illegal structure generation.
-
-<br>
-
-![Player Data](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
-
-&nbsp; ![Gamemode](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
-
-&nbsp; ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
-
-<br>
-
-![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
-
-&nbsp; ![World State](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
-
-&nbsp; &nbsp; ![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
+- ![Block](https://img.shields.io/badge/-Block-134386) - This refers to illegal blocks.
+  - ![Block Configuration](https://img.shields.io/badge/Block%20Configuration-584bea) - This refers to illegal block configurations.
+  - ![Block NBT](https://img.shields.io/badge/Block%20NBT-2FCC66) - This refers to illegal block NBT data.
+- ![Terrain](https://img.shields.io/badge/-Terrain-736226) - This refers to illegal terrain generation.
+  - ![Chunk Loading](https://img.shields.io/badge/Chunk%20Loading-d4a6f5) - This refers to chunk loading errors or anomalies.
+  - ![Biome](https://img.shields.io/badge/-Biome-732637) - This refers to illegal biomes.
+  - ![Structure](https://img.shields.io/badge/Structure-CCA12F) - This refers to illegal structure generation.
+- ![Player Data](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
+  - ![Gamemode](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
+  - ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
+- ![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
+  - ![World State](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
+    -![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
 
 <br>
 
