@@ -12,6 +12,8 @@
 
 ![Last Major Edit](https://custom-icon-badges.demolab.com/endpoint?url=https://funnywordsmagicman.github.io/minions-guide-timeline/wiki-last-edit.json&logo=mcdf&style=plastic&cacheSeconds=60&t=20260308T12)
 
+![Last Major Edit](https://custom-icon-badges.demolab.com/endpoint?url=https://funnywordsmagicman.github.io/minions-guide-timeline/wiki-last-edit.json&logo=mcdf&style=plastic&t=${{ github.run_id }})
+
 <div align=center>
 <img alt="Java Edition" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" height=150px> &nbsp; &nbsp; &nbsp; &nbsp;
 <br>
