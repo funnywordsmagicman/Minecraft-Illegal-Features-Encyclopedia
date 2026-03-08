@@ -6,6 +6,8 @@
 ![test](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf&style=plastic&cacheSeconds=300&t=1)
 ![test](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/file-last-edit.json&logo=question&style=plastic&cacheSeconds=300&t=1)
 
+![Last Major Edit](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf&cacheSeconds=16&style=plastic&cache-control=no-cache)
+
 ![Last Major Edit](https://custom-icon-badges.demolab.com/endpoint?url=https://funnywordsmagicman.github.io/minions-guide-timeline/wiki-last-edit.json&logo=mcdf&style=plastic)
 
 <div align=center>
