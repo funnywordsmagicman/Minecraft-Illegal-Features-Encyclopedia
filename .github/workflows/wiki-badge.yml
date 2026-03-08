@@ -21,10 +21,11 @@ jobs:
       
           # debug
           echo "$JSON" | jq '.query.recentchanges[:5]'
+          echo "UPDATED: $UPDATED"
       
           UPDATED=$(echo "$JSON" | jq -r '
             .query.recentchanges[]
-            | select((.minor // "") == "" | not and ((.bot // false) == false))
+            | select((.minor? | not) and ((.bot // false) == false))
             | .timestamp
           ' | head -n1)
       
