@@ -36,7 +36,7 @@ jobs:
             \"schemaVersion\": 1,
             \"label\": \"Last Guide Update\",
             \"message\": \"$MSG\",
-            \"color\": \"green\"
+            \"color\": \"brightgreen\"
           }" > badge/file-last-edit.json
 
       - name: Commit and push badge
