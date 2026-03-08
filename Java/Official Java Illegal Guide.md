@@ -1,7 +1,7 @@
 <img title="Update refers to the most recent change to the wiki that wasn't minor, bot-related, or the creation of a new page." src="https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf&cacheSeconds=16&style=plastic"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img title="Update refers to the most recent change to this file that wasn't minor." src="https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/file-last-edit.json&logo=question&cacheSeconds=16&style=plastic">
 
 <div align=center>
-<img alt="Java Edition" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" height=150px>
+<img alt="Java Edition" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" height=150px> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <br>
 <img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px">
 </div>
@@ -2147,6 +2147,7 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Understacked Items]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items
 [Overstacked Items]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items
 [level.dat Regeneration]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented
+[External Links]: ../Java/Mods%20&%20Extra%20Files/External%20Links.md
 [The Indev House]: https://minecraft.wiki/w/Starting_House
 [Bedrock]: https://minecraft.wiki/w/Bedrock
 [Grass]: https://minecraft.wiki/w/Grass
