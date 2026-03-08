@@ -19,9 +19,13 @@ jobs:
 
           JSON=$(curl -s "$FEED")
 
+          echo "$JSON" | jq '.query.recentchanges[:5]'
+
           UPDATED=$(echo "$JSON" | jq -r '
             .query.recentchanges[]
-            | select(has("minor") | not and (.bot // false) == false)
+            | select(
+                has("minor") | not 
+                and ((.bot // false) == false)
             | .timestamp
           ' | head -n1)
 
@@ -63,3 +67,4 @@ jobs:
           git add badge/wiki-last-edit.json
           git commit -m "Update meaningful edit badge" || exit 0
           git push
+          
