@@ -39,18 +39,16 @@ jobs:
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
           DIFF=$((NOW - UPDATED_SEC))
       
-          if [ $DIFF -lt 60 ]; then
-            MSG="${DIFF}s ago"
-            COLOR="brightgreen"
-          elif [ $DIFF -lt 3600 ]; then
+
+          if [ $DIFF -lt 3600 ]; then
             MSG="$((DIFF/60))m ago"
-            COLOR="yellow"
+            COLOR="brightgreen"
           elif [ $DIFF -lt 86400 ]; then
             MSG="$((DIFF/3600))h ago"
-            COLOR="orange"
+            COLOR="green"
           else
             MSG="$((DIFF/86400))d ago"
-            COLOR="red"
+            COLOR="yellow"
           fi
       
           mkdir -p badge
