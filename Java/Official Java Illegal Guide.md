@@ -1,21 +1,8 @@
-<table width="100%">
-<tr>
-<td align=left>
- 
+
 ![Update Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json&logo=mcdf&cacheSeconds=600)
-
-</td>
-
-<td width="100%"></td>
-<td align="right">
-
+<br>
 ![File Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/file-last-edit.json&logo=question&cacheSeconds=600) 
 
-</td>
-</tr>
-</table>
-
- ![File Tracker](https://custom-icon-badges.demolab.com/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/file-last-edit.json&logo=question&cacheSeconds=600)
 
 <div align=center width="100%">
 <img alt="Java Edition" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" height=150px>
