@@ -34,7 +34,7 @@
 - ![Entity] - This refers to illegal entities.
   - ![Trade] - This refers to illegal villager trades.
   - ![Mob AI] - This refers to illegal or bugged entity behavior.
-  - ![Static Badge] - This refers to illegal or bugged entity NBT data or attributes.
+  - ![Entity Data] - This refers to illegal or bugged entity NBT data or attributes.
 - ![Block] - This refers to illegal blocks.
   - ![Block Configuration] - This refers to illegal block configurations.
   - ![Block NBT] - This refers to illegal block NBT data.
@@ -42,31 +42,31 @@
   - ![Chunk Loading] - This refers to chunk loading errors or anomalies.
   - ![Biome] - This refers to illegal biomes.
   - ![Structure] - This refers to illegal structure generation.
-- ![Player Data](https://img.shields.io/badge/-Player%20Data-267359) - This refers to illegal player data.
-  - ![Gamemode](https://img.shields.io/badge/Gamemode-7eea4b) - This refers to illegal gamemodes.
-  - ![Effect](https://img.shields.io/badge/Effect-865613) - This refers to illegal effects.
-- ![File](https://img.shields.io/badge/File-4D4D4D) - This refers to illegal files.
-  - ![World State](https://img.shields.io/badge/-World%20State-861356) - This refers to illegal world states.
-  - ![Cheats](https://img.shields.io/badge/Cheats-ea4b7e) - This refers to obtaining cheats illegally.
-- ![Duplication](https://img.shields.io/badge/Duplication-220E08) - This refers to any duplication methods.
-  - ![Item Dupe](https://img.shields.io/badge/-Item%20Dupe-0D8CA5) - This refers to item duplication methods.
-  - ![Block Dupe](https://img.shields.io/badge/-Block%20Dupe-5E5E5E) - This refers to block duplication methods.
-  - ![Entity Dupe](https://img.shields.io/badge/Entity%20Dupe-522FCC) - This refers to entity duplication methods.
-- ![Fast Travel](https://img.shields.io/badge/Fast%20Travel-A12FCC) - This refers to fast travel methods.
-- ![Technical](https://img.shields.io/badge/Technical-2FCC72) - This refers to technical behavior or manipulation methods.
-  - ![Redstone Behavior](https://img.shields.io/badge/Redstone%20Behavior-b92316) - This refers to illegal redstone behavior.
-  - ![Command](https://img.shields.io/badge/Command-6a3095) - This refers to command-based exploits or glitches.
-  - ![Packet](https://img.shields.io/badge/Packet-2e1540) - This refers to illegal or version-specific behavior related to packets.
-  - ![Physics](https://img.shields.io/badge/Physics-7effda) - This refers to bugged physics or collisions.
-  - ![Corruption](https://img.shields.io/badge/Corruption-feaa37) - This refers to world or item corruption.
-  - ![Coordinate](https://img.shields.io/badge/Coordinate-755250) - This refers to coordinate or floating point errors that result in glitched placement, terrain, hitboxes, etc.
-  - ![Lighting](https://img.shields.io/badge/Lighting-e2f4a7) - This refers to illegal or glitched lighting.
-  - ![Sound](https://img.shields.io/badge/Sound-6e789f) - This refers to illegal or glitched sounds.
-  - ![Rendering](https://img.shields.io/badge/Rendering-587550) - This refers to illegal or glitched rendering/graphics.
-  - ![Input](https://img.shields.io/badge/Input-756650) - This refers to illegal, glitched, or debug input/controls.
-  - ![Networking](https://img.shields.io/badge/Networking-a6f5d4) - This refers to single-player or server related exploits or glitches.
-  - ![UI](https://img.shields.io/badge/UI-505d75) - This refers to bugs related to container and inventory UI.
-- ![Dangerous](https://img.shields.io/badge/Dangerous-6a2822) - This refers to dangerous versions or items that may crash or corrupt your world, or have vulnerabilites that put your computer at risk. 
+- ![Player Data] - This refers to illegal player data.
+  - ![Gamemode] - This refers to illegal gamemodes.
+  - ![Effect] - This refers to illegal effects.
+- ![File] - This refers to illegal files.
+  - ![World State] - This refers to illegal world states.
+  - ![Cheats] - This refers to obtaining cheats illegally.
+- ![Duplication] - This refers to any duplication methods.
+  - ![Item Dupe] - This refers to item duplication methods.
+  - ![Block Dupe] - This refers to block duplication methods.
+  - ![Entity Dupe] - This refers to entity duplication methods.
+- ![Fast Travel] - This refers to fast travel methods.
+- ![Technical] - This refers to technical behavior or manipulation methods.
+  - ![Redstone Behavior] - This refers to illegal redstone behavior.
+  - ![Command] - This refers to command-based exploits or glitches.
+  - ![Packet] - This refers to illegal or version-specific behavior related to packets.
+  - ![Physics] - This refers to bugged physics or collisions.
+  - ![Corruption] - This refers to world or item corruption.
+  - ![Coordinate] - This refers to coordinate or floating point errors that result in glitched placement, terrain, hitboxes, etc.
+  - ![Lighting] - This refers to illegal or glitched lighting.
+  - ![Sound] - This refers to illegal or glitched sounds.
+  - ![Rendering] - This refers to illegal or glitched rendering/graphics.
+  - ![Input] - This refers to illegal, glitched, or debug input/controls.
+  - ![Networking] - This refers to single-player or server related exploits or glitches.
+  - ![UI] - This refers to bugs related to container and inventory UI.
+- ![Dangerous] - This refers to dangerous versions or items that may crash or corrupt your world, or have vulnerabilites that put your computer at risk. 
 
 
 # Timeline
