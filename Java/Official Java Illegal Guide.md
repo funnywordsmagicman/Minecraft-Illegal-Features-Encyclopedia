@@ -6,7 +6,7 @@
 **Upgrading:** Upgrading from X.XX.XX to Y.YY.YY to obtain a certain illegal occurence
 <br>
 
-**Downgrading:** [Downgrading](https://minecraft.fandom.com/wiki/Tutorials/Downgrading) from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
+**Downgrading:** ![Downgrading] from Y.YY.YY to X.XX.XX to obtain a certain illegal occurence
 <br>
 
 **EDU:** [MinecraftEDU](https://minecraft.fandom.com/wiki/MinecraftEdu) is a modified fork of Minecraft Java Edition, and is an educational form of Minecraft (Not to be confused with [Minecraft Education](https://minecraft.fandom.com/wiki/Minecraft_Education))
@@ -288,7 +288,7 @@
   - [Crops](https://mcdf.wiki.gg/wiki/Java_Edition:Crops_(Item))
   - [Farmland](https://mcdf.wiki.gg/wiki/Java_Edition:Farmland_(Item))
   - [Lit Furnace](https://mcdf.wiki.gg/wiki/Java_Edition:Lit_Furnace_(Item))
-  - Standing Sign
+  - [Standing Sign](https://mcdf.wiki.gg/wiki/Java_Edition:Standing_Sign_(Item))
   - Wall Sign
   - Half Wooden Door
   - Half Iron Door
@@ -2076,6 +2076,8 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 | :--:|
 | *A timeline of snapshots from 2011-2026.*
 
+<!-- Badges -->
+
 [Item]: https://img.shields.io/badge/-Item-287326?style=plastic
 [Item NBT]: https://img.shields.io/badge/Item%20NBT-2FCC66?style=plastic
 [Item Count]: https://img.shields.io/badge/-Item%20Count-BB1BA1?style=plastic
@@ -2124,3 +2126,7 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [No]: https://img.shields.io/badge/-No-red
 [X]: https://img.shields.io/badge/-X-grey
 [?]: https://img.shields.io/badge/%20-%3F-yellow
+
+<!-- Links -->
+
+[Downgrading]: https://minecraft.fandom.com/wiki/Tutorials/Downgrading
