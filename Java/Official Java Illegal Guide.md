@@ -2134,7 +2134,7 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Networking]: https://img.shields.io/badge/Networking-a6f5d4?style=plastic
 [UI]: https://img.shields.io/badge/UI-505d75?style=plastic
 [Dangerous]: https://img.shields.io/badge/Dangerous-6a2822?style=plastic
-[Debug]: https://img.shields.io/badge/-Debug-336699
+[Debug]: https://img.shields.io/badge/-Debug-336699?style=plastic
 [Yes]: https://img.shields.io/badge/-Yes-Brightgreen
 [No]: https://img.shields.io/badge/-No-red
 [X]: https://img.shields.io/badge/-X-grey
