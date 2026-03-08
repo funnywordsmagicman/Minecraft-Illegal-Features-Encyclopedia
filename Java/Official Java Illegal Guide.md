@@ -78,7 +78,8 @@
   - ![Input] - This refers to illegal, glitched, or debug input/controls.
   - ![Networking] - This refers to single-player or server related exploits or glitches.
   - ![UI] - This refers to bugs related to container and inventory UI.
-- ![Dangerous] - This refers to dangerous versions or items that may crash or corrupt your world, or have vulnerabilites that put your computer at risk. 
+- ![Dangerous] - This refers to dangerous versions or items that may crash or corrupt your world, or have vulnerabilites that put your computer at risk.
+- ![Debug] - This refers to debug features, although they may not be discontinued. 
 
 
 # Timeline
@@ -110,7 +111,7 @@
     - [Coal Ore]
     - [Obsidian]
     - [Leaves]
-- Exploding a chest with the container menu open will both drop the items, and leave zero stack versions of any items that were in the chest in the container menu. This method of 0 stack items works all the way to Alpha 1.2.6. <sup>[\[1\]][1]</sup>
+- Exploding a chest with the container menu open will both drop the items, and leave [zero stacks][Understacked Items] of any items that were in the chest inside the container menu. <sup>[\[1\]][1]</sup>
 - As chests were an opaque block from Indev 0.31 20100124-2119 through Beta 1.9 Prerelease 5, many blocks requiring support could be placed against them. 
 - Torches could be placed underwater.
 
@@ -163,7 +164,7 @@
 - By using 15 wide symbols in the same line before the new sign limit system, it is possible to obtain a sign that would be impossible with the modern character size limits. The longest characters that can be put on a sign include "~", "_", and "m." <sup>[\[10\]][10]</sup>
   
 ### Infdev 20100611
-- Monoliths would generate in flat terrain without bedrock underneath. <sup>[\[11\]][11]</sup> <sup>[See files...](../Java/Mods%20%26%20Extra%20Files/External%20Links.md)</sup>
+- Monoliths would generate in flat terrain without bedrock underneath. <sup>[\[11\]][11]</sup> <sup>[See files...][External Links]</sup>
   <br>
   <br>
   <img width="50%" height="50%" alt="Monolith_small" src="https://github.com/user-attachments/assets/a02230aa-9ccd-4b62-8498-5db7b74352da" />
@@ -461,16 +462,15 @@
 
   
 ### Beta 1.7_01
-- Placing an upwards facing piston of any type and building a two block high pillar of solid blocks beside it, then placing a lever on the side of the pillar but above the piston will crash the game upon activation. 
+- Placing an upwards facing piston of any type and building a two block high pillar of solid blocks beside it, then placing a lever on the side of the pillar but above the piston will crash and corrupt the world upon activation. 
 
 ### Beta 1.7.2
-- [Block Transmutation](https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Moving_Piston_Merge_Transmutation:~:text=Original%20discovery-,Moving%20Piston%20Merge%20Transmutation,-Warning%3A%20Game%20Crash) is possible through updating a budded piston at the same time another piston pushes a block.
+- [Block Transmutation][Moving Piston Transmutation] is possible through updating a budded piston at the same time another piston pushes a block.
 - Worlds from 1.7_01 that will previously hardlocked will now open, and a moving piston block (Block 36) will appear above bugged pistons.
 
 <details>
   <summary> <strong>Moving Piston Merge Transmutation Block list</strong></summary>
   
-| Numeric ID | Block ID | Does it Work? | Special Design Needed? |
 | Numeric ID | Block ID | Does it Work? | Special Design Needed? |
 |---|---|---|---|
 | 0 | stone | ![Yes] |  |
@@ -597,18 +597,18 @@
 </details>
 
 ### Beta 1.8 Prerelease 1-1
-- Endermen can pick up any block in the game allowing for discontinued endermen variants
-- Enderpearls can stack up to 64 in this version allowing for overstacked enderpearls
-- Updating a furnace into a lit furnace which will update a piston and then pushing the furnace will displace it's block entity. This allows for furnace block entity in any block in the game that normally has a block entity
-- Placing a mushroom on any block and then bonemealing them would grow a big mushroom and replace the block underneath it with dirt making it possible for unbreakable bock removal
-- Updating a Chest from Beta 1.7.3 will cause it to be a darkness block inside the chest because previously chests were opaque and a full block. Any block changes around the chest will break it.
+- Endermen can pick up any block in the game. <sup>[\[35\]][35]</sup>
+- Enderpearls stack to 64. <sup>[\[36\]][36]</sup>
+- Updating a furnace into a [lit furnace][Lit Furnace], subsequently updating a piston, and then pushing the furnace will displace its block entity. This allows any block in the game with a block entity to have the furnace block entity.
+- Giant mushrooms grow without checking for unbreakable blocks above them. <sup>[\[37\]][37]</sup>
+- Updating a chest from Beta 1.7.3 and before will leave a pitch black chest, due to the fact that they were previously full blocks.
 
-### Beta 1.9 Prerelease 1
-- Jumping will give you XP, this is not an unobtainable but it is a debug feature that can be used to get insane amount of Xp levels really quickly
+### Beta 1.9 Prerelease 1 [Debug]
+- Jumping gives XP. 
 
 ### Beta 1.9 Prerelease 2 (MOD)
 > [!Note]
-> This version uses a mod to assign a block id to a cauldron in order to access the original brewing system. The beta 1.9 pre2 cauldron mod can be downloaded from resources. The zip file can then be extracted, and the folder titled "enable" can be zipped. This enabled zip can then be added to a b1.9-pre2 instance in multimc by going to edit instance and add to minecraft.jar. You can find this mod in the "Mods & Extra Files" folder
+> This version uses a mod to assign a block id to a cauldron in order to access the original brewing system. <sup>[See files...][Cauldron Mod]</sup>
 - The cauldron currently uses the id of an enchantment table and the block data of a brewing stand. This means that updating out of this version will convert the cauldron to an enchantment table with the block data of a brewing stand
 - Potions can be brewed by adding an assortment of ingredients to a cauldron. A total of 5,339 potion variations are possible using this method, most of which provide discontinued status effects and create invalid data value potions. A potion calculator is included on the resource sheet to explain the brewing process in more detail. 
 - Feeding animals would cause the wheat to decrement past 0 if it was the last item in the stack
@@ -2134,6 +2134,7 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Networking]: https://img.shields.io/badge/Networking-a6f5d4?style=plastic
 [UI]: https://img.shields.io/badge/UI-505d75?style=plastic
 [Dangerous]: https://img.shields.io/badge/Dangerous-6a2822?style=plastic
+[Debug]: https://img.shields.io/badge/-Debug-336699
 [Yes]: https://img.shields.io/badge/-Yes-Brightgreen
 [No]: https://img.shields.io/badge/-No-red
 [X]: https://img.shields.io/badge/-X-grey
@@ -2149,6 +2150,9 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Overstacked Items]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items
 [level.dat Regeneration]: https://mcdf.wiki.gg/wiki/Java_Edition:Tutorials/World_Save_Insertion#Level.dat_Regeneration:~:text=an%20incompatible%20world!-,Level.dat%20Regeneration,-Some%20features%20documented
 [External Links]: ../Java/Mods%20&%20Extra%20Files/External%20Links.md
+[1.6 Suppressor]: ../Java/Worlds/Update%20Suppresor%201.6%20Test%20Build%203.zip
+[Cauldron Mod]: ../Java/Mods/Beta%201.9%20Pre%202%20Cauldron%20Mod.zip
+
 [The Indev House]: https://minecraft.wiki/w/Starting_House
 [Bedrock]: https://minecraft.wiki/w/Bedrock
 [Grass]: https://minecraft.wiki/w/Grass
@@ -2197,8 +2201,8 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [Locked Chest]: https://mcdf.wiki.gg/wiki/Java_Edition:Locked_Chest
 [Shrub]: https://mcdf.wiki.gg/wiki/Java_Edition:Shrub
 [Petrified Oak Slabs]: https://mcdf.wiki.gg/wiki/Java_Edition:Petrified_Oak_Slab
-[1.6 Suppressor]: ../Java/Mods/Worlds/Update%20Suppresor%201.6%20Test%20Build%203.zip
 [Liquid Transmutation]: https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Liquid_Transmutation
+[Moving Piston Transmutation]: https://mcdf.wiki.gg/wiki/Java_Edition:Block_Transmutation#Moving_Piston_Merge_Transmutation
 
 <!-- Links 2 -->
 [1]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Destroyed_Container_GUI_Reference
@@ -2235,6 +2239,9 @@ Golden Pickaxe from Silky Pick: Silk Touch (15-65), Unbreaking I (5-12), Diamond
 [32]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Nether_Portal_+_Crafting_Table
 [33]: https://mcdf.wiki.gg/wiki/Java_Edition:Offset_Map_File
 [34]: https://mcdf.wiki.gg/wiki/Java_Edition:Understacked_Items#Damaged_Equipment_Drop
+[35]: https://mcdf.wiki.gg/wiki/Java_Edition:Enderman_Holding_Invalid_Block
+[36]: https://mcdf.wiki.gg/wiki/Java_Edition:Overstacked_Items#Ender_Pearls
+[37]: https://mcdf.wiki.gg/wiki/Java_Edition:Unbreakable_Block_Removal_Methods#Large_Mushrooms
 
 
 
