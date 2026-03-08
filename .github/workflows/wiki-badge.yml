@@ -21,13 +21,9 @@ jobs:
 
           UPDATED=$(echo "$JSON" | jq -r '
             .query.recentchanges[]
-            | select(
-                (.minor // empty) == empty
-                and (.bot // false) == false
-                and .type == "edit"
-              )
+            | select(has("minor") | not and (.bot // false) == false)
             | .timestamp
-          ' | head -n 1)
+          ' | head -n1)
 
           # fallback if no qualifying edit
           if [ -z "$UPDATED" ]; then
@@ -43,10 +39,10 @@ jobs:
             COLOR="brightgreen"
           elif [ $DIFF -lt 3600 ]; then
             MSG="$((DIFF/60))m ago"
-            COLOR="green"
+            COLOR="yellow"
           elif [ $DIFF -lt 86400 ]; then
             MSG="$((DIFF/3600))h ago"
-            COLOR="yellow"
+            COLOR="orange"
           else
             MSG="$((DIFF/86400))d ago"
             COLOR="red"
@@ -55,7 +51,7 @@ jobs:
           mkdir -p badge
           echo "{
             \"schemaVersion\": 1,
-            \"label\": \"Last Human Edit\",
+            \"label\": \"Last Major Edit\",
             \"message\": \"$MSG\",
             \"color\": \"$COLOR\"
           }" > badge/wiki-last-edit.json
