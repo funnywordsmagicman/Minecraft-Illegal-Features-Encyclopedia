@@ -13,13 +13,19 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch feed and generate badge
+      - name: Fetch non-minor, non-bot edit timestamp
         run: |
-          FEED="https://mcdf.wiki.gg/api.php?action=feedrecentchanges&days=7&feedformat=atom&hidebots=1&hidecategorization=1&limit=50&urlversion=1"
+          FEED="https://mcdf.wiki.gg/api.php?action=query&list=recentchanges&rcprop=title|ids|sizes|flags|user|comment|timestamp|tags&format=json"
 
-          XML=$(curl -s $FEED)
+          JSON=$(curl -s "$FEED")
 
-          UPDATED=$(echo "$XML" | sed -n 's:.*<entry>.*<updated>\(.*\)</updated>.*:\1:p' | head -n 1)
+          # get newest edit that is NOT minor AND NOT a bot
+          UPDATED=$(echo "$JSON" | jq -r '.query.recentchanges[] | select(.minor == null and (.bot == null or .bot == false)) | .timestamp' | head -n 1)
+
+          # fallback if no edits found
+          if [ -z "$UPDATED" ]; then
+            UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          fi
 
           NOW=$(date -u +%s)
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
@@ -28,21 +34,25 @@ jobs:
 
           if [ $DIFF -lt 60 ]; then
             MSG="${DIFF}s ago"
+            COLOR="brightgreen"
           elif [ $DIFF -lt 3600 ]; then
             MSG="$((DIFF/60))m ago"
+            COLOR="green"
           elif [ $DIFF -lt 86400 ]; then
             MSG="$((DIFF/3600))h ago"
+            COLOR="yellow"
           else
             MSG="$((DIFF/86400))d ago"
+            COLOR="red"
           fi
 
           mkdir -p badge
 
           echo "{
             \"schemaVersion\": 1,
-            \"label\": \"Last Wiki Edit\",
+            \"label\": \"Last Major Edit\",
             \"message\": \"$MSG\",
-            \"color\": \"blue\"
+            \"color\": \"$COLOR\"
           }" > badge/wiki-last-edit.json
 
       - name: Commit changes
@@ -50,5 +60,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add badge/wiki-last-edit.json
-          git commit -m "Update wiki badge" || exit 0
+          git commit -m "Update badge" || exit 0
           git push
