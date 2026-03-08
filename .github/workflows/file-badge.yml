@@ -1,4 +1,4 @@
-name: Update Meaningful Edit Badge
+name: Update Meaningful File Edit Badge
 
 on:
   schedule:
