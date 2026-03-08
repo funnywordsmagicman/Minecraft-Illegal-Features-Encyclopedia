@@ -19,7 +19,7 @@ jobs:
 
           XML=$(curl -s $FEED)
 
-          UPDATED=$(echo "$XML" | xmllint --xpath "//*[local-name()='entry']/*[local-name()='updated'][1]/text()" -)
+          UPDATED=$(echo "$XML" | sed -n 's:.*<entry>.*<updated>\(.*\)</updated>.*:\1:p' | head -n 1)
 
           NOW=$(date -u +%s)
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
