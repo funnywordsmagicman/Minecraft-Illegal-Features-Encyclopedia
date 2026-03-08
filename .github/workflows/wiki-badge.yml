@@ -13,24 +13,29 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch non-minor, non-bot edit timestamp
+      - name: Fetch latest non-minor, non-bot edit
         run: |
           FEED="https://mcdf.wiki.gg/api.php?action=query&list=recentchanges&rcprop=title|ids|sizes|flags|user|comment|timestamp|tags&format=json"
 
           JSON=$(curl -s "$FEED")
 
-          UPDATED=$(echo "$JSON" | jq -r '.query.recentchanges[] | select((.minor // "") == "" and (.bot // false) == false) | .timestamp' | head -n 1)
+          # pick newest edit that is NOT minor and NOT a bot
+          UPDATED=$(echo "$JSON" | jq -r '
+            .query.recentchanges[]
+            | select((.minor // "") == "" and (.bot // false) == false)
+            | .timestamp
+          ' | head -n1)
 
-          # fallback if no edits found
+          # fallback if no qualifying edit
           if [ -z "$UPDATED" ]; then
             UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           fi
 
           NOW=$(date -u +%s)
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
-
           DIFF=$((NOW - UPDATED_SEC))
 
+          # calculate human-readable age and color
           if [ $DIFF -lt 60 ]; then
             MSG="${DIFF}s ago"
             COLOR="brightgreen"
@@ -45,19 +50,19 @@ jobs:
             COLOR="red"
           fi
 
+          # write badge JSON
           mkdir -p badge
-
           echo "{
             \"schemaVersion\": 1,
-            \"label\": \"Last Major Edit\",
+            \"label\": \"Last Non-Minor Edit\",
             \"message\": \"$MSG\",
             \"color\": \"$COLOR\"
           }" > badge/wiki-last-edit.json
 
-      - name: Commit changes
+      - name: Commit and push badge
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add badge/wiki-last-edit.json
-          git commit -m "Update badge" || exit 0
+          git commit -m "Update non-minor edit badge" || exit 0
           git push
