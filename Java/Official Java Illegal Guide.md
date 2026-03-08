@@ -67,6 +67,7 @@
   - ![Networking] - This refers to single-player or server related exploits or glitches.
   - ![UI] - This refers to bugs related to container and inventory UI.
 - ![Dangerous] - This refers to dangerous versions or items that may crash or corrupt your world, or have vulnerabilites that put your computer at risk. 
+  ![test](https://img.shields.io/badge/Dangerous-6a2822?style=for-the-badge)
 
 
 # Timeline
