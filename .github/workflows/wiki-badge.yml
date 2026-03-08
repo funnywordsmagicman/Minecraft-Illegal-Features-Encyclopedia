@@ -1,8 +1,8 @@
-name: Update Wiki Badge
+name: Update Meaningful Edit Badge
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,18 +13,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch latest non-minor, non-bot edit
+      - name: Fetch latest meaningful edit
         run: |
           FEED="https://mcdf.wiki.gg/api.php?action=query&list=recentchanges&rcprop=title|ids|sizes|flags|user|comment|timestamp|tags&format=json"
 
           JSON=$(curl -s "$FEED")
 
-          # pick newest edit that is NOT minor and NOT a bot
           UPDATED=$(echo "$JSON" | jq -r '
             .query.recentchanges[]
-            | select((.minor // "") == "" and (.bot // false) == false)
+            | select(
+                (.minor // empty) == empty
+                and (.bot // false) == false
+                and .type == "edit"
+              )
             | .timestamp
-          ' | head -n1)
+          ' | head -n 1)
 
           # fallback if no qualifying edit
           if [ -z "$UPDATED" ]; then
@@ -35,7 +38,6 @@ jobs:
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
           DIFF=$((NOW - UPDATED_SEC))
 
-          # calculate human-readable age and color
           if [ $DIFF -lt 60 ]; then
             MSG="${DIFF}s ago"
             COLOR="brightgreen"
@@ -50,11 +52,10 @@ jobs:
             COLOR="red"
           fi
 
-          # write badge JSON
           mkdir -p badge
           echo "{
             \"schemaVersion\": 1,
-            \"label\": \"Last Non-Minor Edit\",
+            \"label\": \"Last Human Edit\",
             \"message\": \"$MSG\",
             \"color\": \"$COLOR\"
           }" > badge/wiki-last-edit.json
@@ -64,5 +65,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add badge/wiki-last-edit.json
-          git commit -m "Update non-minor edit badge" || exit 0
+          git commit -m "Update meaningful edit badge" || exit 0
           git push
