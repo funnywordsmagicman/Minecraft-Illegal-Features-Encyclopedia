@@ -2,6 +2,7 @@
 
 ![Last Najor Edit](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funnywordsmagicman/minions-guide-timeline/main/badge/wiki-last-edit.json)
 
+![test](https://img.shields.io/badge/1-1-green?logo=data:image/svg+xml,base64,aHR0cHM6Ly9tY2RmLndpa2kuZ2cvaW1hZ2VzL3RodW1iL01haW5fUGFnZV9Mb2dvXyUyODIwMjFfVXBkYXRlJTI5LnBuZy8yMzVweC1NYWluX1BhZ2VfTG9nb18lMjgyMDIxX1VwZGF0ZSUyOS5wbmc_MTUxYzg1)
 
 <div align=center width="100%">
 <img alt="Java Edition" src="https://github.com/user-attachments/assets/0bbf92d1-f9f1-41ff-ab95-b11239c7b5c6" height=150px>
