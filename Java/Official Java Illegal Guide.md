@@ -5,12 +5,9 @@
 <img alt="Illegal Features Guide" src="../Java/images/illegal-logo" width="700px">
 </div>
 
-<details>
+<details style="list-style-type: 'hand';">
  <summary></summary>
-
-  <div class="meta_for_parser tablespecs" style="visibility:hidden">{"dataname":"environment","colvar":"varname","colval":"value"}</div>
 # Illegal Features Guide
-  </div>
 
 </details>
 
