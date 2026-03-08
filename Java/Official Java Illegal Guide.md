@@ -33,13 +33,10 @@
     - ![Durability](https://img.shields.io/badge/Durability-cc822f) - This refers to illegal equipment durability.
 <br>
 
-![Entity](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
-
-&nbsp; ![Trade](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
-
-&nbsp; ![Mob AI](https://img.shields.io/badge/Mob%20AI-401c15) - This refers to illegal or bugged entity behavior.
-
-&nbsp; ![Static Badge](https://img.shields.io/badge/Entity%20Data-a8838c) - This refers to illegal or bugged entity NBT data or attributes.
+- ![Entity](https://img.shields.io/badge/-Entity-502673) - This refers to illegal entities.
+  - ![Trade](https://img.shields.io/badge/Trade-734D26) - This refers to illegal villager trades.
+  - ![Mob AI](https://img.shields.io/badge/Mob%20AI-401c15) - This refers to illegal or bugged entity behavior.
+  - ![Static Badge](https://img.shields.io/badge/Entity%20Data-a8838c) - This refers to illegal or bugged entity NBT data or attributes.
 
 <br>
 
