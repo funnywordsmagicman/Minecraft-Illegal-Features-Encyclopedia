@@ -9,9 +9,9 @@
 
 &emsp; This repository is not an official asset of Mojang AB and is not endorsed or affiliated with Mojang or Microsoft.
 
-This is a personal, non-commercial project intended for educational or informational purposes.
+&emsp; This is a personal, non-commercial project intended for educational or informational purposes.
 
-All Minecraft-related logos, assets, and trademarks are the property of Mojang AB / Microsoft. No rights to the official intellectual property are granted.
+&emsp; All Minecraft-related logos, assets, and trademarks are the property of Mojang AB / Microsoft. No rights to the official intellectual property are granted.
 
 <br>
 
