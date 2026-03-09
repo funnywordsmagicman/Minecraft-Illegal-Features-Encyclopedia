@@ -324,7 +324,7 @@
 ### Beta 1.6.0 ![Durability] ![Equipment] ![Item Count] ![Item Dupe]
 - Any equipment with damage less than zero will become a [zero stack][Understacked Items] when dropped. This only works on equipment with durability. <sup>[\[34\]][34]</sup>
 
-### Beta 1.7
+### Beta 1.7 ![Technical] ![Block NBT] ![Block Configuration] 
 - [Block Transmutation][Liquid Transmutation] is possible through building a piston and water based contraption.
 - Pulling a detector rail with a minecart on it will leave it powered until ticked.
 - Pushing with a 0/1-tick pulse or by simply pulling a rail or activator rail off a block would leave it floating.
@@ -463,12 +463,12 @@
 </details>
 
   
-### Beta 1.7_01
+### Beta 1.7_01 ![Dangerous] ![Technical]
 - Placing an upwards facing piston of any type and building a two block high pillar of solid blocks beside it, then placing a lever on the side of the pillar but above the piston will crash and corrupt the world upon activation. 
 
-### Beta 1.7.2
+### Beta 1.7.2 ![Technical] ![Block Configuration]
 - [Block Transmutation][Moving Piston Transmutation] is possible through updating a budded piston at the same time another piston pushes a block.
-- Worlds from 1.7_01 that will previously hardlocked will now open, and a moving piston block (Block 36) will appear above bugged pistons.
+- Worlds from 1.7_01 that were previously hardlocked will now open, and a moving piston block (Block 36) will appear above bugged pistons.
 
 <details>
   <summary> <strong>Moving Piston Merge Transmutation Block list</strong></summary>
@@ -598,7 +598,7 @@
 | 120 | end_stone | ![Yes] |  |
 </details>
 
-### Beta 1.8 Prerelease 1-1
+### Beta 1.8 Prerelease 1-1 ![Entity Data] ![Item Count] ![Block NBT] ![Block Destruction] ![Lighting]
 - Endermen can pick up any block in the game. <sup>[\[35\]][35]</sup>
 - Enderpearls stack to 64. <sup>[\[36\]][36]</sup>
 - Updating a furnace into a [lit furnace][Lit Furnace], subsequently updating a piston, and then pushing the furnace will displace its block entity. This allows any block in the game with a block entity to have the furnace block entity.
@@ -608,15 +608,15 @@
 ### Beta 1.9 Prerelease 1 ![Debug]
 - Jumping gives XP. 
 
-### Beta 1.9 Prerelease 2 (MOD)
+### Beta 1.9 Prerelease 2 ![Mods] ![Technical] ![Block NBT] ![Effect] ![Item Count] ![Item NBT]
 > [!Note]
 > This version uses a mod to assign a block id to a cauldron in order to access the original brewing system. <sup>[See files...][Cauldron Mod]</sup>
 - The cauldron currently uses the id of an enchantment table and the block data of a brewing stand. This means that updating out of this version will convert the cauldron to an enchantment table with the block data of a brewing stand
 - Potions can be brewed by adding an assortment of ingredients to a cauldron. A total of 5,339 potion variations are possible using this method, most of which provide discontinued status effects and create invalid data value potions. A potion calculator is included on the resource sheet to explain the brewing process in more detail. 
 - Feeding animals would cause the wheat to decrement past 0 if it was the last item in the stack
 
-### Beta 1.9 Prerelease 3 - Beta 1.9 Prerelease 2
-- Downgrading potions from Beta 1.9 Prerelease 3 to Beta 1.9 Prerelease 2 will make it possible to overstack the potions allowing for overstacked potions
+### Beta 1.9 Prerelease 3 - Beta 1.9 Prerelease 2 ![Item Count] 
+- Downgrading potions from Beta 1.9 Prerelease 3 to Beta 1.9 Prerelease 2 will make it possible to overstack the potions allowing for overstacked potions.
 
 ### Beta 1.9 Prerelease 3-1 ![Debug]
 > [!Note]
