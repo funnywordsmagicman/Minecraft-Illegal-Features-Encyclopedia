@@ -15,6 +15,8 @@ Besides that, I took it upon myself to 'clean up' this guide. Most of the change
 
 <!-- ↑ Such as in this page! Take a look at the bottom of the page- it might seem unnecessary to have EVERY reference down there, but I like it. -->
 
+<h2 id="ogcreds">Original Credits</h2>
+
 
 [Credits]: ../CREDITS.md
 [MCDF Wiki]: https://mcdf.wiki.gg
