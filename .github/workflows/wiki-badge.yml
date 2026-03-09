@@ -1,8 +1,6 @@
 name: Update Wiki Badge JSON
 
 on:
-  schedule:
-    - cron: "6-59/10 * * * *"   # avoids common queue spikes
   workflow_dispatch:
 
 concurrency:
@@ -80,5 +78,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          sleep 600
+          sleep 1800
           gh workflow run "${{ github.workflow }}"
