@@ -15,7 +15,7 @@ Nearly all of the information currently available in this repository comes from 
 
 <!-- ↑ Such as in this page! Take a look at the bottom of the page- it might seem unnecessary to have EVERY reference down there, but I like it. -->
 
-<h2 id="ogcreds">Original Credits</h2>
+## Original Credits
 
 > [!Note]
 > This is a copy-and-paste of all the credits from the [CREDITS.md][Credits] file.
