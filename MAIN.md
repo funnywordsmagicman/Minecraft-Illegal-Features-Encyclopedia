@@ -13,7 +13,7 @@
 
 &emsp; &emsp; MCDF Logo (2021 Revision)
 
-   Source: [mcdf.wiki.gg][MCDF Wiki]
+   Source: [mcdf.wiki.gg](https://mcdf.wiki.gg/images/thumb/Main_Page_Logo_%282021_Update%29.png/235px-Main_Page_Logo_%282021_Update%29.png?151c85)
    
    License (for wiki content): Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
    
