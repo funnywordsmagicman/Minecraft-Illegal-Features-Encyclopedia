@@ -1,9 +1,9 @@
 
-<img src="https://github.com/user-attachments/assets/179469f5-4335-40a4-859c-21c9e18bbd9b" width="200px">
-
 # Minecraft Illegal Features Encyclopedia
 
 <br>
+
+<img src="https://github.com/user-attachments/assets/179469f5-4335-40a4-859c-21c9e18bbd9b" width="200px">
 
 ## Credits
 
