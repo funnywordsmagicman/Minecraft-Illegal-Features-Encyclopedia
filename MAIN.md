@@ -30,7 +30,7 @@ Besides that, I took it upon myself to 'clean up' this guide. Most of the change
 ***Snow Bear King (Illegal Contribution)***
 <br>
 
-#### Bedrock
+### Bedrock
 
 ***ItsMeJames (Illegals and Glitches):*** https://www.youtube.com/c/ItsMeJames
 <br>
@@ -61,7 +61,7 @@ https://www.youtube.com/@s0lar1te
 ***Swagopottamus (Illegal Help)***
 <br>
 
-#### Java
+### Java
 
 ***Captain_S0l0 (Many Java Mods, 1.8 Command Sign Mod, Beta 1.9 Pre 2 Cauldron Mod, Custom Book Mod, Negative Item Renderer Mod):*** https://github.com/Captain-S0L0
 
