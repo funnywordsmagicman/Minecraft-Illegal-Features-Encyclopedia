@@ -7,7 +7,7 @@
 
 ## Important
 
-&emsp; This repository is not an official asset of Mojang AB and is not endorsed or affiliated with Mojang or Microsoft.
+&emsp; This repository is not an official asset of Mojang AB and is not endorsed by, or affiliated, with Mojang or Microsoft.
 
 &emsp; This is a personal, non-commercial project intended for educational or informational purposes.
 
