@@ -1,3 +1,6 @@
+
+![235px-Main_Page_Logo_(2021_Update)](https://github.com/user-attachments/assets/179469f5-4335-40a4-859c-21c9e18bbd9b)
+
 # Minecraft Illegal Features Encyclopedia
 
 <br>
