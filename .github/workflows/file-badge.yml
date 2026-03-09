@@ -1,6 +1,8 @@
 name: Update File Badge JSON
 
 on:
+  schedule:
+  - cron: "3-53/7 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -68,9 +70,3 @@ jobs:
           git commit -m "Update meaningful file edit badge" || echo "No changes to commit"
           git push
 
-      - name: Self-trigger next run (backup chain)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          sleep 1800
-          gh workflow run "${{ github.workflow }}"
