@@ -4,14 +4,14 @@
 
 ## Credits
 
-Outside of the [Credits] page, I've decided to add some credits of my own.
+  Outside of the [Credits] page, I've decided to add some credits of my own.
 
-Obviously, big credits to the [MCDF Wiki]. I believe all, with the possible exception of a little information, comes from the MCDF wiki. If it's not from there, its either from individual contributors (big thanks as well) or from the [Minecraft Wiki]/[Minecraft Fandom].
+  Obviously, big credits to the [MCDF Wiki]. I believe all, with the possible exception of a little information, comes from the MCDF wiki. If it's not from there, its either from individual contributors (big thanks as well) or from the [Minecraft Wiki]/[Minecraft Fandom].
 
-I didn't start this encyclopedia. If you want to see the original version of this encyclopedia, see [Mini0n's Discontinued Feature Guide].
+  I didn't start this encyclopedia. If you want to see the original version of this encyclopedia, see [Mini0n's Discontinued Feature Guide].
 Nearly all of the information currently available in this repository comes from their original guide.  Credits to [gMini0n-YT].
 
-Besides that, I took it upon myself to 'clean up' this guide. Most of the changes you'll find (if you can somehow find your way through the countless versions of every single page) are purely visual, though I did add some information that I felt should be included. I tried to keep files tidy, so you'll find most link references at the bottom of any page.
+  Besides that, I took it upon myself to 'clean up' this guide. Most of the changes you'll find (if you can somehow find your way through the countless versions of every single page) are purely visual, though I did add some information that I felt should be included. I tried to keep files tidy, so you'll find most link references at the bottom of any page.
 
 <!-- ↑ Such as in this page! Take a look at the bottom of the page- it might seem unnecessary to have EVERY reference down there, but I like it. -->
 
@@ -21,49 +21,49 @@ Besides that, I took it upon myself to 'clean up' this guide. Most of the change
 > This is a copy-and-paste of all the credits from the [CREDITS.md][Credits] file.
 
 ### All Versions
-***gMini0n:*** https://www.youtube.com/channel/UCBVChlletbw_BV8bTlyT2vQ
+  ***gMini0n:*** https://www.youtube.com/channel/UCBVChlletbw_BV8bTlyT2vQ
 <br>
 
-***sl1mJ1m (Sl1m's Optimal Every Platform Timeline (Of Doom), Big Java Help, Structure Basis  & Encouragement to creating the Java Side of the Illegal Guide):*** https://docs.google.com/spreadsheets/d/1CSOCSplHsTL3UNSQjHlDOFAafSYnekjqi7Djg5PFSME/edit?gid=787492864#gid=787492864
+  ***sl1mJ1m (Sl1m's Optimal Every Platform Timeline (Of Doom), Big Java Help, Structure Basis  & Encouragement to creating the Java Side of the Illegal Guide):*** https://docs.google.com/spreadsheets/d/1CSOCSplHsTL3UNSQjHlDOFAafSYnekjqi7Djg5PFSME/edit?gid=787492864#gid=787492864
 <br>
 
-***Snow Bear King (Illegal Contribution)***
+  ***Snow Bear King (Illegal Contribution)***
 <br>
 
-### Bedrock
+  ### Bedrock
 
-***ItsMeJames (Illegals and Glitches):*** https://www.youtube.com/c/ItsMeJames
+  ***ItsMeJames (Illegals and Glitches):*** https://www.youtube.com/c/ItsMeJames
 <br>
 
-***Jamfam Discord:*** https://discord.gg/uBw7uh7w
+  ***Jamfam Discord:*** https://discord.gg/uBw7uh7w
 <br>
 
-***p3sw (Discontinued Feature Guide Help, Trading Helper.mcpack, CoordinatesUnlocker.mcpack, ArmoredFoxesV4.mcpack, Damage Indicator.mcpack, Mansion X-Ray.mcpack):*** https://github.com/p12h4
+  ***p3sw (Discontinued Feature Guide Help, Trading Helper.mcpack, CoordinatesUnlocker.mcpack, ArmoredFoxesV4.mcpack, Damage Indicator.mcpack, Mansion X-Ray.mcpack):*** https://github.com/p12h4
 <br>
 
 
-***s0lar1te (Discontinued Feature Guide Help, anvillimitrenamerremoverfor1.2.mcpack):*** https://github.com/s0lar1te, 
+  ***s0lar1te (Discontinued Feature Guide Help, anvillimitrenamerremoverfor1.2.mcpack):*** https://github.com/s0lar1te, 
 https://www.youtube.com/@s0lar1te
 <br>
 
-***VirisRJ (Illegal Help, Valid Chunk Regeneration Illegals.txt, ChunkRegenerationGraph.webp):*** https://www.youtube.com/channel/UCE4jwpebQ-18klfM3VSCWog
+  ***VirisRJ (Illegal Help, Valid Chunk Regeneration Illegals.txt, ChunkRegenerationGraph.webp):*** https://www.youtube.com/channel/UCE4jwpebQ-18klfM3VSCWog
 <br>
 
-***ToxicAbsense (Illegals, and Separated Guide Help):*** https://www.youtube.com/@ToxicAbsence
+  ***ToxicAbsense (Illegals, and Separated Guide Help):*** https://www.youtube.com/@ToxicAbsence
 <br>
 
-***SirKellogs: MobHeadVi.mcpack***
+  ***SirKellogs: MobHeadVi.mcpack***
 <br>
 
-***StormOfLight (ChunkRegenerationGraph.webp)***
+  ***StormOfLight (ChunkRegenerationGraph.webp)***
 <br>
 
-***Swagopottamus (Illegal Help)***
+  ***Swagopottamus (Illegal Help)***
 <br>
 
 ### Java
 
-***Captain_S0l0 (Many Java Mods, 1.8 Command Sign Mod, Beta 1.9 Pre 2 Cauldron Mod, Custom Book Mod, Negative Item Renderer Mod):*** https://github.com/Captain-S0L0
+  ***Captain_S0l0 (Many Java Mods, 1.8 Command Sign Mod, Beta 1.9 Pre 2 Cauldron Mod, Custom Book Mod, Negative Item Renderer Mod):*** https://github.com/Captain-S0L0
 
 
 
