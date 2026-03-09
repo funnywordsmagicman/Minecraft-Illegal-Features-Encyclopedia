@@ -1,11 +1,15 @@
 # Contributing
 
-Helping out with the guide in any way would be greatly appreciated, but you must follow certain guidellines.
+**Guidelines**
+1. Keep any suggestions or contributions related to <ins>discontinued or illegal</ins> features.
+2. Don't troll or grief. 
+3. [Discontinued features] requiring non-vanilla (excluding Edu and other versions obtained by Mojang) versions of minecraft are not permitted.
 
-**You can contribute in one of these ways**
+**How to reach me:**
 1. Creating an Issue
 2. Creating a Pull request
 3. Messaging me either by my [MCDF Wiki User Page][User Page] or by my [Discord] about any missing illegal features or formatting errors.
 
+[Discontinued Features]: https://mcdf.wiki.gg/#:~:text=What%20are%20Discontinued%20Features%3F
 [User Page]: https://mcdf.wiki.gg/wiki/User_talk:Funnywordsmagicman?action=edit&redlink=1
 [Discord]: https://discord.com/users/949030359041970186
