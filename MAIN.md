@@ -1,5 +1,7 @@
 # Minecraft Illegal Features Encyclopedia
 
+
+
 ## Credits
 
 Outside of the [Credits] page, I've decided to add some credits of my own.
