@@ -6,4 +6,4 @@
     - The feature itself
     - A screenshot of the feature
     - Which edition it occurs in (Java, Bedrock, etc.)
-3. Make a pull request of the repository, not a random doc.
+3. Make a pull request of the repository, not a random file.
