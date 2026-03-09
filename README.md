@@ -97,7 +97,7 @@ https://www.youtube.com/@s0lar1te
 
 
 
-[Credits]: ../CREDITS.md
+[Credits]: CREDITS.md
 [MCDF Wiki]: https://mcdf.wiki.gg
 [Minecraft Wiki]: https://minecraft.wiki
 [Minecraft Fandom]: https://minecraft.fandom.com
