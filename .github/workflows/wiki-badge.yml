@@ -2,14 +2,21 @@ name: Update Wiki Badge JSON
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # every 10 minutes
+    - cron: "3-59/10 * * * *"   # avoids common queue spikes
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
+    permissions:
+      actions: write
+      contents: write
+
     steps:
+      - name: Random delay to avoid queue spikes
+        run: sleep $((RANDOM % 90))
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -31,12 +38,10 @@ jobs:
             UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           fi
 
-          # Calculate difference in seconds
           NOW=$(date -u +%s)
           UPDATED_SEC=$(date -d "$UPDATED" +%s)
           DIFF=$((NOW - UPDATED_SEC))
 
-          # Convert diff into human-readable format
           if [ $DIFF -lt 3600 ]; then
             MSG="$((DIFF/60))m ago"
           elif [ $DIFF -lt 86400 ]; then
@@ -51,7 +56,6 @@ jobs:
 
           echo "Last wiki edit message: $MSG"
 
-          # Create badge JSON with fixed color
           mkdir -p Java/badge
           echo "{
             \"schemaVersion\": 1,
@@ -67,3 +71,10 @@ jobs:
           git add Java/badge/wiki-last-edit.json
           git commit -m "Update wiki last edit json" || echo "No changes to commit"
           git push
+
+      - name: Self-trigger next run (backup chain)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          sleep 600
+          gh workflow run "${{ github.workflow }}"
