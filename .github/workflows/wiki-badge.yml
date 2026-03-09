@@ -1,6 +1,8 @@
 name: Update Wiki Badge JSON
 
 on:
+  schedule:
+  - cron: "3-59/7 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -73,10 +75,3 @@ jobs:
           git add Java/badge/wiki-last-edit.json
           git commit -m "Update wiki last edit json" || echo "No changes to commit"
           git push
-
-      - name: Self-trigger next run (backup chain)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          sleep 1800
-          gh workflow run "${{ github.workflow }}"
