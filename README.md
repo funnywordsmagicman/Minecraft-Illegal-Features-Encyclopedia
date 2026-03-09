@@ -7,6 +7,8 @@
 
 ## Important
 
+### Legal and/or Corporate Affiliation
+
 &emsp; This repository is not an official asset of Mojang AB and is not endorsed by, or affiliated, with Mojang or Microsoft.
 
 &emsp; This is a personal, non-commercial project intended for educational or informational purposes.
@@ -14,6 +16,8 @@
 &emsp; All Minecraft-related logos, assets, and trademarks are the property of Mojang AB / Microsoft. No rights to the official intellectual property have been granted.
 
 <br>
+
+### Terminology
 
 &emsp; In this repository, the term “illegal” refers to items, blocks, or mechanics that are normally unobtainable, unintended, or not accessible through standard gameplay in Minecraft.
 
