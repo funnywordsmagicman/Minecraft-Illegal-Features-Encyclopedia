@@ -19,7 +19,7 @@
    
    MCDF Logo (2021 Revision), taken from mcdf.wiki.gg, licensed under CC BY-SA 4.0.
    
-   Note: This image is a derivative of assets owned by Mojang AB (the original Minecraft logo). Use of the image does not transfer rights to Mojang’s intellectual property. Commercial use may require permission from Mojang.
+   **Note:** This image is a derivative of assets owned by Mojang AB (the original Minecraft logo). Use of the image does not transfer rights to Mojang’s intellectual property. Commercial use may require permission from Mojang.
 
 <br>
 
@@ -27,7 +27,7 @@
 
    © Mojang AB / Microsoft. 
    
-   Note: This image is used for informational / non-commercial purposes.
+   **Note:** This image is used for informational / non-commercial purposes.
 <br><br> 
 ## Credits
 
