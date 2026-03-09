@@ -206,7 +206,7 @@
 
 ## Alpha
 
-### Alpha 1.0.1_01 - Infdev 20100630-2 (Downgrading)
+### Alpha 1.0.1_01 - Infdev 20100630-2 (Downgrading) ![Block Configuration] ![Block]
 - Downgrading redstone that is placed on or against a block will convert it to a [gear][Gear] in Infdev 20100630-2.
   
   <br>
@@ -215,54 +215,54 @@
 
 - Breaking the gear's support block and updating back to Alpha 1.0.1_01 will leave floating redstone.
 
-### Alpha 1.0.1_01
+### Alpha 1.0.1_01 ![Block Configuration]
 - Activating a lever and breaking its support will leave it floating.
 
-### Alpha 1.0.4
+### Alpha 1.0.4 ![Technical] ![Block Configuration]
 > [!Note]
 > In order to access the [Winter Mode] world type, the level.dat will have to be regenerated. <sup>[\[20\]][20]</sup>.
 - [Snow Layers] were added, but can only be obtained in the Winter Type Map.
 - Snow Layers would generate on top of all blocks during snowfall, including non-full blocks.
   
-### Alpha 1.0.5-2
+### Alpha 1.0.5-2 ![Technical] ![Block Configuration] ![Item Count]
 - Added [Block Replacement Bypass], which involves placing support blocks directly into water, lava, fire, or snow. This allows for many illegal block formations such as floating flowers, floating ladders and quintuple chests.
 - Snowballs stack to 64. <sup>[\[21\]][21]</sup>
 
-### Alpha 1.0.6
+### Alpha 1.0.6 ![Block Configuration]
 - Cacti can be placed on and next to any block. <sup>[\[22\]][22]</sup>
   
-### Alpha 1.0.11
+### Alpha 1.0.11 ![Technical] ![Block Configuration] ![Item Count]
 - Placing a door next to cacti would create a half door. <sup>[\[23\]][23]</sup>
 - Buckets of Milk stack to 64. <sup>[\[24\]][24]</sup>
 
-### Alpha 1.1.1
+### Alpha 1.1.1 ![Item Count]
 - Fishing Rods stack to 64. <sup>[\[25\]][25]</sup>
 - Eggs stack to 64. <sup>[\[26\]][26]</sup>
 
-### Alpha 1.2.0
+### Alpha 1.2.0 ![Entity] ![Block Configuration]
 - Zombie Pigmen added.
 - Zombie Pigmen and skeletons appear to hold their weapons, but it's only visual. Updating these mobs past beta 1.3 will turn them into weaponless mobs. <sup>[\[27\]][27]</sup>
 - Lava only flows 4 blocks in the nether.
 
-### Alpha 1.2.2 ![Debug]
+### Alpha 1.2.2 ![Debug] ![Block Configuration] 
 - Nether Portals can be summoned by pressing <kbd>F4</kbd>, which can be used to get to the Farlands and to create illegal block formations.
 - By summoning a portal and entering it while inside a boat, you will enter the nether at your overworld coordinates. <sup>[\[28\]][28]</sup>
 - Signs can be placed on [nether portal blocks][Nether Portal].
 
-### Alpha 1.2.6
+### Alpha 1.2.6 ![Terrain] 
 - Lava Lakes cut through bedrock if they generate at the bottom of the world.
 
 ## Beta
 
-### Beta 1.0
+### Beta 1.0 ![UI] ![Technical]
 - Destroyed containers now force close their gui.
   - The Destroyed Container GUI Reference dupe is still possible due to a [1-tick window][1-tick] before the close.
 - The player can't store items in the inventories' crafting fields anymore.
 
-### Beta 1.2_02-launcher
+### Beta 1.2_02-launcher ![File]
 - This is the last version that uses the Alpha file format. Since the Alpha File Format from previous worlds has already been converted, updating to this version will regenerate an entirely new world with the Alpha File Format.
   
-### Beta 1.3.2 - Infdev 20100624
+### Beta 1.3.2 - Infdev 20100624 ![File] ![Technical]
 > [!Note]
 > In order to access this version, the world save folder will have to be renamed to World(1-5). During this downgrade, the level.dat and level.dat_old files must be removed (either by deletion or moving them to another location) temporarily. The level.dat and level.dat_old files have to be restored when updating back to b1.3-2 in order to preserve the Alpha File Format folders of the next version.
 - This version has a file format that is not used in any other version. A folder named "data" is created, which contains "entities.dat" and "zones.dat". This folder will become completely unused upon updating out of this version.
