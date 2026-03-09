@@ -7,4 +7,4 @@ To report a security issue, please contact me via my [Discord].
 
 The Discontinued Features team will send a response indicating the next steps in handling your report. After the initial reply to your report, the security team will keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
 
-[Discord]: discordapp.com/users/949030359041970186
+[Discord]: https://discordapp.com/users/949030359041970186
