@@ -1,6 +1,6 @@
 # Minecraft Illegal Features Encyclopedia
 
-
+<br>
 
 ## Credits
 
