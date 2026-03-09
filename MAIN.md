@@ -9,6 +9,7 @@
 
 &emsp; This repo is not an official asset owned by Mojang, nor is it officially endorsed. This is a NON-COMMERCIAL and personal project, and has no corporate affiliation.
 
+<br><br> 
 ## Credits
 
 &emsp; Outside of the [Credits] page, I've decided to add some credits of my own.
